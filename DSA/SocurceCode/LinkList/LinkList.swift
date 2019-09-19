@@ -24,6 +24,7 @@ extension ListNode: CustomStringConvertible where Element: LosslessStringConvert
     }
 }
 
+// MARK: - LinkList
 class LinkList<T>
 {
     public typealias Node = ListNode<T>
@@ -72,6 +73,30 @@ extension LinkList: Sequence, IteratorProtocol
             iterator = iterator?.next
         }
         return iterator
+    }
+}
+
+extension LinkList: Equatable where T: Equatable
+{
+    static func == (lhs: LinkList<T>, rhs: LinkList<T>) -> Bool {
+        var rhsNode = rhs.head
+        for lhsNode in lhs {
+            guard let _rhsNode = rhsNode, lhsNode.value == _rhsNode.value else { return false }
+            rhsNode = _rhsNode.next
+        }
+        return rhsNode == nil
+    }
+}
+
+extension LinkList: Comparable where T: Comparable
+{
+    static func < (lhs: LinkList<T>, rhs: LinkList<T>) -> Bool {
+        var rhsNode = rhs.head
+        for lhsNode in lhs {
+            guard let _rhsNode = rhsNode, lhsNode.value < _rhsNode.value else { return false }
+            rhsNode = _rhsNode.next
+        }
+        return true
     }
 }
 
