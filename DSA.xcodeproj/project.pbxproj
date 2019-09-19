@@ -13,7 +13,9 @@
 		A069026D2333C30400B269C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A069026C2333C30400B269C6 /* Assets.xcassets */; };
 		A06902702333C30400B269C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A069026E2333C30400B269C6 /* LaunchScreen.storyboard */; };
 		A069027D2333C50E00B269C6 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069027C2333C50E00B269C6 /* LinkList.swift */; };
-		A06902812333D49D00B269C6 /* FileStructure.json in Resources */ = {isa = PBXBuildFile; fileRef = A06902802333D49D00B269C6 /* FileStructure.json */; };
+		A06902892333EF0300B269C6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06902882333EF0300B269C6 /* Queue.swift */; };
+		A069028E2334021400B269C6 /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069028D2334021400B269C6 /* WordLadder.swift */; };
+		A06902902334024900B269C6 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069028F2334024900B269C6 /* Executable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		A069026F2333C30400B269C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A06902712333C30400B269C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A069027C2333C50E00B269C6 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
-		A06902802333D49D00B269C6 /* FileStructure.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FileStructure.json; sourceTree = "<group>"; };
+		A06902882333EF0300B269C6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		A069028D2334021400B269C6 /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
+		A069028F2334024900B269C6 /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,7 @@
 				A069027A2333C4C100B269C6 /* SocurceCode */,
 				A06902652333C30000B269C6 /* AppDelegate.swift */,
 				A06902672333C30000B269C6 /* ViewController.swift */,
-				A06902802333D49D00B269C6 /* FileStructure.json */,
+				A069028F2334024900B269C6 /* Executable.swift */,
 				A06902692333C30000B269C6 /* Main.storyboard */,
 				A069026C2333C30400B269C6 /* Assets.xcassets */,
 				A069026E2333C30400B269C6 /* LaunchScreen.storyboard */,
@@ -73,6 +77,8 @@
 		A069027A2333C4C100B269C6 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
+				A069028C2334020300B269C6 /* Graph */,
+				A06902872333EEEA00B269C6 /* Queue */,
 				A069027B2333C4D300B269C6 /* LinkList */,
 			);
 			path = SocurceCode;
@@ -84,6 +90,22 @@
 				A069027C2333C50E00B269C6 /* LinkList.swift */,
 			);
 			path = LinkList;
+			sourceTree = "<group>";
+		};
+		A06902872333EEEA00B269C6 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				A06902882333EF0300B269C6 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		A069028C2334020300B269C6 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				A069028D2334021400B269C6 /* WordLadder.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +169,6 @@
 				A06902702333C30400B269C6 /* LaunchScreen.storyboard in Resources */,
 				A069026D2333C30400B269C6 /* Assets.xcassets in Resources */,
 				A069026B2333C30000B269C6 /* Main.storyboard in Resources */,
-				A06902812333D49D00B269C6 /* FileStructure.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A069028E2334021400B269C6 /* WordLadder.swift in Sources */,
 				A06902682333C30000B269C6 /* ViewController.swift in Sources */,
 				A069027D2333C50E00B269C6 /* LinkList.swift in Sources */,
 				A06902662333C30000B269C6 /* AppDelegate.swift in Sources */,
+				A06902892333EF0300B269C6 /* Queue.swift in Sources */,
+				A06902902334024900B269C6 /* Executable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

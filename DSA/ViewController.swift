@@ -12,11 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ll = LinkList<Int>()
-        ll.append(2)
-        ll.append(5)
-        ll.append(1)
-        ll.append(8)
+        let executable = WordLadder.excecute()
+        print(executable)
     }
 }
 

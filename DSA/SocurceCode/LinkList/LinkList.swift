@@ -27,9 +27,13 @@ extension ListNode: CustomStringConvertible where Element: LosslessStringConvert
 class LinkList<T>
 {
     public typealias Node = ListNode<T>
-
     private (set) lazy var iterator = head
-    private (set) var head: Node?
+
+    var head: Node? {
+        didSet{
+            iterator = self.head
+        }
+    }
     
     func append(_ item: T) {
         let node = ListNode(item)
@@ -55,6 +59,8 @@ extension LinkList: CustomStringConvertible where T: LosslessStringConvertible
             current = next
             description.append("->\(next.value)")
         }
+        description.insert("[", at: description.startIndex)
+        description.insert("]", at: description.endIndex)
         return description
     }
 }
@@ -76,5 +82,17 @@ extension LinkList
             for (nodeIndex, node) in self.enumerated() where index == nodeIndex { return  node }
             fatalError("Index out of bounds!")
         }
+    }
+    
+    var isEmpty: Bool {
+        return head == nil
+    }
+    
+    var size: Int {
+        var count = 0
+        for _ in self {
+            count += 1
+        }
+        return count
     }
 }
