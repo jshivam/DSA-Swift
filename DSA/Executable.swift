@@ -9,5 +9,5 @@
 import Foundation
 
 protocol Executable {
-   static func excecute()
+   func excecute()
 }

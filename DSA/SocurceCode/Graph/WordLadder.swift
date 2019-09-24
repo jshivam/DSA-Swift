@@ -9,7 +9,7 @@
 import UIKit
 
 class WordLadder: Executable {
-    static func excecute() {
+    func excecute() {
         let beginWord = "hit"
         let endWord = "cog"
         let wordList = ["hot","dot","dog","lot","log","cog"]
@@ -17,7 +17,7 @@ class WordLadder: Executable {
         print(output)
     }
     
-    static func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int
+    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int
     {
         if ((beginWord == endWord) || (!wordList.contains(endWord))){
             return 0
