@@ -10,15 +10,11 @@ import UIKit
 
 
 class Queue<T>: LinkList<T>{
-    @discardableResult func dequeue() -> T?
-    {
-        defer {
-            head = head?.next
-        }
-        return head?.value
+    @discardableResult func dequeue() -> T?{
+        return removeFirst()
     }
     
     func enqueue(_ item: T) {
-        super.append(item)
+        append(item)
     }
 }

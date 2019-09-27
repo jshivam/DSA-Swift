@@ -18,19 +18,13 @@ class ListNode<Element>
     }
 }
 
-extension ListNode: CustomStringConvertible where Element: LosslessStringConvertible {
-    var description: String {
-        return String(value)
-    }
-}
-
 // MARK: - LinkList
 class LinkList<T>
 {
     public typealias Node = ListNode<T>
-    private (set) lazy var iterator = head
+    private lazy var iterator = head
 
-    var head: Node? {
+    private var head: Node? {
         didSet{
             iterator = self.head
         }
@@ -48,13 +42,51 @@ class LinkList<T>
         }
         current.next = node
     }
+    
+    func insert(_ item: T, at _index: Int) {
+        
+        let newNode = Node(item)
+        for (index, node) in self.enumerated() where index == _index {
+            let temp = node.value
+            node.value = newNode.value
+            newNode.value = temp
+            
+            newNode.next = node.next
+            node.next = newNode
+            return
+        }
+        fatalError("Index out of bouds!")
+    }
+    
+    @discardableResult
+    func remove(at index: Int) -> T? {
+        
+        let node = self[index]
+        let temp = node.next
+        node.next = temp?.next
+        defer {
+            if let value = temp?.value {
+                node.value = value
+            }
+        }
+        return node.value
+    }
+    
+    @discardableResult
+    func removeFirst() -> T? {
+        
+        defer {
+            head = head?.next
+        }
+        return head?.value
+    }
 }
 
-extension LinkList: CustomStringConvertible where T: LosslessStringConvertible
+extension LinkList: CustomStringConvertible
 {
     var description: String {
         var current = self.head
-        var description: String = current?.value.description ?? ""
+        var description: String = "\((current?.value) as? String ?? "")"
         
         while let next = current?.next {
             current = next
