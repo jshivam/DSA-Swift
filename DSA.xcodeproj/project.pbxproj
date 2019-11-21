@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0267D35235881C2004C69D2 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267D34235881C2004C69D2 /* Validate Binary Search Tree.swift */; };
+		A06189272359944000DCADF7 /* LCA of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06189262359944000DCADF7 /* LCA of a Binary Tree.swift */; };
+		A0618929235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0618928235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift */; };
 		A06902662333C30000B269C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06902652333C30000B269C6 /* AppDelegate.swift */; };
 		A06902682333C30000B269C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06902672333C30000B269C6 /* ViewController.swift */; };
 		A069026B2333C30000B269C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06902692333C30000B269C6 /* Main.storyboard */; };
@@ -16,7 +19,11 @@
 		A06902892333EF0300B269C6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06902882333EF0300B269C6 /* Queue.swift */; };
 		A069028E2334021400B269C6 /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069028D2334021400B269C6 /* WordLadder.swift */; };
 		A06902902334024900B269C6 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A069028F2334024900B269C6 /* Executable.swift */; };
+		A075DB4F235D9C7C00010A9E /* Partition Equal Subset Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075DB4E235D9C7C00010A9E /* Partition Equal Subset Sum.swift */; };
+		A075DB51235DB9D600010A9E /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075DB50235DB9D600010A9E /* Subsets.swift */; };
 		A07B74A32336492100825205 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B74A22336492100825205 /* Power.swift */; };
+		A09E8B362348BE06005FABBF /* Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09E8B352348BE06005FABBF /* Kth Smallest Element in a BST.swift */; };
+		A09E8B382348E4C2005FABBF /* Valid Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09E8B372348E4C2005FABBF /* Valid Number.swift */; };
 		A0C674E92339FC3300C3EF8A /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C674E82339FC3300C3EF8A /* BinarySearch.swift */; };
 		A0C674EC233A650400C3EF8A /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C674EB233A650400C3EF8A /* Tree.swift */; };
 		A0C674EE233A654D00C3EF8A /* MinimunDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C674ED233A654D00C3EF8A /* MinimunDepth.swift */; };
@@ -25,9 +32,15 @@
 		A0C674F4233A661900C3EF8A /* VerticalOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C674F3233A661900C3EF8A /* VerticalOrderTraversal.swift */; };
 		A0EA2CFF2334AE8600E667CB /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA2CFE2334AE8600E667CB /* QuickSort.swift */; };
 		A0EA2D022334B7A700E667CB /* KthLargestElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA2D012334B7A700E667CB /* KthLargestElement.swift */; };
+		A0EA7C7D234B1D7E005343BD /* Count Primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA7C7C234B1D7E005343BD /* Count Primes.swift */; };
+		A0EA7C80234B364C005343BD /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EA7C7F234B364C005343BD /* Diagonal Traverse.swift */; };
+		A0F1257F233FCB5600CE8E11 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1257E233FCB5600CE8E11 /* InvertBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0267D34235881C2004C69D2 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
+		A06189262359944000DCADF7 /* LCA of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LCA of a Binary Tree.swift"; sourceTree = "<group>"; };
+		A0618928235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shortest distance between two nodes in BST.swift"; sourceTree = "<group>"; };
 		A06902622333C30000B269C6 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06902652333C30000B269C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06902672333C30000B269C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +52,11 @@
 		A06902882333EF0300B269C6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		A069028D2334021400B269C6 /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
 		A069028F2334024900B269C6 /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		A075DB4E235D9C7C00010A9E /* Partition Equal Subset Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Partition Equal Subset Sum.swift"; sourceTree = "<group>"; };
+		A075DB50235DB9D600010A9E /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
 		A07B74A22336492100825205 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		A09E8B352348BE06005FABBF /* Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
+		A09E8B372348E4C2005FABBF /* Valid Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Number.swift"; sourceTree = "<group>"; };
 		A0C674E82339FC3300C3EF8A /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		A0C674EB233A650400C3EF8A /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		A0C674ED233A654D00C3EF8A /* MinimunDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimunDepth.swift; sourceTree = "<group>"; };
@@ -48,6 +65,9 @@
 		A0C674F3233A661900C3EF8A /* VerticalOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalOrderTraversal.swift; sourceTree = "<group>"; };
 		A0EA2CFE2334AE8600E667CB /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		A0EA2D012334B7A700E667CB /* KthLargestElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElement.swift; sourceTree = "<group>"; };
+		A0EA7C7C234B1D7E005343BD /* Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Primes.swift"; sourceTree = "<group>"; };
+		A0EA7C7F234B364C005343BD /* Diagonal Traverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
+		A0F1257E233FCB5600CE8E11 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,8 @@
 		A069027A2333C4C100B269C6 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
+				A075DB4D235D9C6B00010A9E /* DP */,
+				A0EA7C7E234B3636005343BD /* Matrix */,
 				A0C674EA233A64DC00C3EF8A /* Tree */,
 				A07B74A12336490C00825205 /* Math */,
 				A0EA2D002334B79000E667CB /* Array */,
@@ -130,10 +152,20 @@
 			path = Graph;
 			sourceTree = "<group>";
 		};
+		A075DB4D235D9C6B00010A9E /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				A075DB4E235D9C7C00010A9E /* Partition Equal Subset Sum.swift */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
 		A07B74A12336490C00825205 /* Math */ = {
 			isa = PBXGroup;
 			children = (
 				A07B74A22336492100825205 /* Power.swift */,
+				A09E8B372348E4C2005FABBF /* Valid Number.swift */,
+				A0EA7C7C234B1D7E005343BD /* Count Primes.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -146,6 +178,11 @@
 				A0C674EF233A659C00C3EF8A /* MaximumPathSum.swift */,
 				A0C674F1233A65EF00C3EF8A /* LevelOrderTraversal.swift */,
 				A0C674F3233A661900C3EF8A /* VerticalOrderTraversal.swift */,
+				A0F1257E233FCB5600CE8E11 /* InvertBinaryTree.swift */,
+				A09E8B352348BE06005FABBF /* Kth Smallest Element in a BST.swift */,
+				A0267D34235881C2004C69D2 /* Validate Binary Search Tree.swift */,
+				A06189262359944000DCADF7 /* LCA of a Binary Tree.swift */,
+				A0618928235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -163,8 +200,17 @@
 			children = (
 				A0EA2D012334B7A700E667CB /* KthLargestElement.swift */,
 				A0C674E82339FC3300C3EF8A /* BinarySearch.swift */,
+				A075DB50235DB9D600010A9E /* Subsets.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		A0EA7C7E234B3636005343BD /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA7C7F234B364C005343BD /* Diagonal Traverse.swift */,
+			);
+			path = Matrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,20 +284,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A075DB4F235D9C7C00010A9E /* Partition Equal Subset Sum.swift in Sources */,
 				A0C674F0233A659C00C3EF8A /* MaximumPathSum.swift in Sources */,
+				A0EA7C80234B364C005343BD /* Diagonal Traverse.swift in Sources */,
 				A069028E2334021400B269C6 /* WordLadder.swift in Sources */,
 				A06902682333C30000B269C6 /* ViewController.swift in Sources */,
 				A0EA2CFF2334AE8600E667CB /* QuickSort.swift in Sources */,
 				A069027D2333C50E00B269C6 /* LinkList.swift in Sources */,
 				A0C674E92339FC3300C3EF8A /* BinarySearch.swift in Sources */,
+				A0618929235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift in Sources */,
 				A0C674F2233A65EF00C3EF8A /* LevelOrderTraversal.swift in Sources */,
 				A06902662333C30000B269C6 /* AppDelegate.swift in Sources */,
 				A0C674EC233A650400C3EF8A /* Tree.swift in Sources */,
 				A0C674EE233A654D00C3EF8A /* MinimunDepth.swift in Sources */,
 				A0EA2D022334B7A700E667CB /* KthLargestElement.swift in Sources */,
+				A0267D35235881C2004C69D2 /* Validate Binary Search Tree.swift in Sources */,
+				A0EA7C7D234B1D7E005343BD /* Count Primes.swift in Sources */,
+				A075DB51235DB9D600010A9E /* Subsets.swift in Sources */,
+				A09E8B362348BE06005FABBF /* Kth Smallest Element in a BST.swift in Sources */,
 				A06902892333EF0300B269C6 /* Queue.swift in Sources */,
 				A07B74A32336492100825205 /* Power.swift in Sources */,
+				A06189272359944000DCADF7 /* LCA of a Binary Tree.swift in Sources */,
 				A0C674F4233A661900C3EF8A /* VerticalOrderTraversal.swift in Sources */,
+				A0F1257F233FCB5600CE8E11 /* InvertBinaryTree.swift in Sources */,
+				A09E8B382348E4C2005FABBF /* Valid Number.swift in Sources */,
 				A06902902334024900B269C6 /* Executable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

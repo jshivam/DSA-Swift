@@ -21,7 +21,7 @@ class ListNode<Element>
 // MARK: - LinkList
 class LinkList<T>
 {
-    public typealias Node = ListNode<T>
+    typealias Node = ListNode<T>
     private lazy var iterator = head
 
     private var head: Node? {
@@ -85,10 +85,11 @@ class LinkList<T>
 extension LinkList: CustomStringConvertible
 {
     var description: String {
-        var current = self.head
-        var description: String = "\((current?.value) as? String ?? "")"
         
-        while let next = current?.next {
+        guard var current = self.head else { return "" }
+        var description: String = "\(current.value)"
+        
+        while let next = current.next {
             current = next
             description.append("->\(next.value)")
         }
@@ -151,5 +152,37 @@ extension LinkList
             count += 1
         }
         return count
+    }
+    
+    @discardableResult
+    func reversed(_ head: Node?) -> Node? {
+
+        if head?.next == nil {
+            return head
+        }
+        
+        let rest = reversed(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        
+        return rest
+    }
+    
+    func reverseList(_ head: Node?) -> Node?
+    {
+        var current: Node? = head
+        var next: Node? = head?.next
+        var prev: Node?  = nil
+        
+        while next != nil
+        {
+            current?.next = prev
+            prev = current
+            current = next
+            next = current?.next
+        }
+        
+        current?.next = prev
+        return current
     }
 }
