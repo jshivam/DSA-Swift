@@ -18,3 +18,11 @@ public class TreeNode {
         self.right = nil
     }
 }
+
+class Tree {
+    let root: TreeNode?
+    init?(root: TreeNode?) {
+        guard let root = root else { return nil }
+        self.root = root
+    }
+}

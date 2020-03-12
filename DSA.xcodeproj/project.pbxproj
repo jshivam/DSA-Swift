@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0267D35235881C2004C69D2 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0267D34235881C2004C69D2 /* Validate Binary Search Tree.swift */; };
+		A05AC201238FB0F800ACAD33 /* Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AC200238FB0F800ACAD33 /* Jump Game.swift */; };
 		A06189272359944000DCADF7 /* LCA of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06189262359944000DCADF7 /* LCA of a Binary Tree.swift */; };
 		A0618929235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0618928235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift */; };
 		A06902662333C30000B269C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06902652333C30000B269C6 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		A0267D34235881C2004C69D2 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
+		A05AC200238FB0F800ACAD33 /* Jump Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump Game.swift"; sourceTree = "<group>"; };
 		A06189262359944000DCADF7 /* LCA of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LCA of a Binary Tree.swift"; sourceTree = "<group>"; };
 		A0618928235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shortest distance between two nodes in BST.swift"; sourceTree = "<group>"; };
 		A06902622333C30000B269C6 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +203,7 @@
 				A0EA2D012334B7A700E667CB /* KthLargestElement.swift */,
 				A0C674E82339FC3300C3EF8A /* BinarySearch.swift */,
 				A075DB50235DB9D600010A9E /* Subsets.swift */,
+				A05AC200238FB0F800ACAD33 /* Jump Game.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				A069028E2334021400B269C6 /* WordLadder.swift in Sources */,
 				A06902682333C30000B269C6 /* ViewController.swift in Sources */,
 				A0EA2CFF2334AE8600E667CB /* QuickSort.swift in Sources */,
+				A05AC201238FB0F800ACAD33 /* Jump Game.swift in Sources */,
 				A069027D2333C50E00B269C6 /* LinkList.swift in Sources */,
 				A0C674E92339FC3300C3EF8A /* BinarySearch.swift in Sources */,
 				A0618929235997BE00DCADF7 /* Shortest distance between two nodes in BST.swift in Sources */,
