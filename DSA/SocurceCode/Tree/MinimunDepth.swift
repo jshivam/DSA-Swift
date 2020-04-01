@@ -8,10 +8,8 @@
 
 import Foundation
 
-extension TreeNode
-{
+extension TreeNode{
     func minDepth(_ root: TreeNode?) -> Int {
-        
         guard let root = root else { return 0 }
         if root.left == nil && root.right == nil {
             return 1

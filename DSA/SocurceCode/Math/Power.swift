@@ -24,7 +24,6 @@ class Pwoer: Executable {
             return number * myPow(number, power - 1)
         }
         else {
-            
             return 1 / (number * myPow(number, -power - 1))
         }
     }

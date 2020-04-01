@@ -24,7 +24,7 @@ class LinkList<T>
     typealias Node = ListNode<T>
     private lazy var iterator = head
 
-    private var head: Node? {
+    private(set) var head: Node? {
         didSet{
             iterator = self.head
         }
@@ -154,8 +154,15 @@ extension LinkList
         return count
     }
     
-    @discardableResult
-    func reversed(_ head: Node?) -> Node? {
+    func reversed(){
+        head = reversed(head)
+    }
+
+    func reverseList(){
+        head = reverseList(head)
+    }
+
+    private func reversed(_ head: Node?) -> Node? {
 
         if head?.next == nil {
             return head
@@ -168,7 +175,7 @@ extension LinkList
         return rest
     }
     
-    func reverseList(_ head: Node?) -> Node?
+    private func reverseList(_ head: Node?) -> Node?
     {
         var current: Node? = head
         var next: Node? = head?.next

@@ -20,7 +20,6 @@ extension TreeNode
         
         let left = LCA(root.left, value1: value1, value2: value2)
         let right = LCA(root.right, value1: value1, value2: value2)
-        
         if let _ = left, let _ = right {
             return root
         }

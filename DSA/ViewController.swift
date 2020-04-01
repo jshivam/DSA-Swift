@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Subsets.init().excecute()
+        SubarraySumEqualsK.init().excecute()
     }
 }
-

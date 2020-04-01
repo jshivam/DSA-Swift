@@ -26,11 +26,7 @@ extension TreeNode {
     
     private func distanceBetween(_ root: TreeNode?, value: Int) -> Int {
         guard let root = root else { return 0 }
-        if root.val > value {
-            return 1 + distanceBetween(root.left, value: value)
-        }else{
-            return 1 + distanceBetween(root.right, value: value)
-        }
-        
+        let nextNode = root.val > value ? root.left : root.right
+        return 1 + distanceBetween(nextNode, value: value)
     }
 }

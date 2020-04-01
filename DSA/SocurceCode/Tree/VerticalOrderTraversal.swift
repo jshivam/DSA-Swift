@@ -26,16 +26,16 @@ extension TreeNode
         let Q = Queue<DTreeNode>()
         Q.enqueue(DTreeNode(root))
         
-        var result: [Int: [Int]] = [Int: [Int]]()
+        var distanceMap: [Int: [Int]] = [Int: [Int]]()
         
         while !Q.isEmpty{
                         
             for _ in 0..<Q.size {
                 
                 let item = Q.dequeue()!
-                var results = result[item.distance] ?? []
-                results.append(item.node.val)
-                result[item.distance] = results
+                var distances = distanceMap[item.distance] ?? []
+                distances.append(item.node.val)
+                distanceMap[item.distance] = distances
                 
                 if let left = item.node.left {
                     let leftNode = DTreeNode(left)
@@ -52,9 +52,9 @@ extension TreeNode
         }
         
         var output = [[Int]]()
-        let keys = result.keys.sorted()
+        let keys = distanceMap.keys.sorted()
         for key in keys {
-            output.append(result[key]!)
+            output.append(distanceMap[key]!)
         }
         return output
     }

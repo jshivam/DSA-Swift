@@ -17,7 +17,7 @@ extension TreeNode
     func isValidBSTUtil(_ root: TreeNode? , range: ClosedRange<Int>) -> Bool
     {
         guard let root = root else { return true }
-        
+
         if !range.contains(root.val) || range.lowerBound == root.val || range.upperBound == root.val {
             return false
         }

@@ -19,12 +19,11 @@ extension TreeNode
     }
     
     private func kthSmallestUtil(_ root: TreeNode?, _ count: inout Int, _ result: inout Int) {
-        
         guard let root = root, count > 0 else { return }
         
         kthSmallestUtil(root.left, &count, &result)
         count -= 1
-        
+
         if count == 0{
             result = root.val
             return
