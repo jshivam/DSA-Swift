@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A712435CC6E00E8D351 /* AppDelegate.swift */; };
+		A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
+		A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A752435CC6E00E8D351 /* ViewController.swift */; };
+		A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A772435CC6E00E8D351 /* Main.storyboard */; };
+		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
+		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
+		A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C52435CCB000CC8702 /* Executable.swift */; };
+		A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */; };
+		A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */; };
+		A07E15F12435CCB000CC8702 /* VerticalOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */; };
+		A07E15F22435CCB000CC8702 /* Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */; };
+		A07E15F32435CCB000CC8702 /* Kth Smallest Element in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CC2435CCB000CC8702 /* Kth Smallest Element in a BST.swift */; };
+		A07E15F42435CCB000CC8702 /* LCA of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CD2435CCB000CC8702 /* LCA of a Binary Tree.swift */; };
+		A07E15F52435CCB000CC8702 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CE2435CCB000CC8702 /* Tree.swift */; };
+		A07E15F62435CCB000CC8702 /* MaximumDepthofBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */; };
+		A07E15F72435CCB000CC8702 /* MinimunDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D02435CCB000CC8702 /* MinimunDepth.swift */; };
+		A07E15F82435CCB000CC8702 /* LevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */; };
+		A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */; };
+		A07E15FA2435CCB000CC8702 /* Shortest distance between two nodes in BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */; };
+		A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D52435CCB000CC8702 /* LRUCache.swift */; };
+		A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D72435CCB000CC8702 /* KthLargestElement.swift */; };
+		A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D82435CCB000CC8702 /* Subsets.swift */; };
+		A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15D92435CCB000CC8702 /* Jump Game.swift */; };
+		A07E15FF2435CCB000CC8702 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15DA2435CCB000CC8702 /* BinarySearch.swift */; };
+		A07E16002435CCB000CC8702 /* Subarray Sum Equals K.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */; };
+		A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15DD2435CCB000CC8702 /* WordLadder.swift */; };
+		A07E16022435CCB000CC8702 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15DF2435CCB000CC8702 /* Power.swift */; };
+		A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E02435CCB000CC8702 /* Palindrome Number.swift */; };
+		A07E16042435CCB000CC8702 /* Count Primes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E12435CCB000CC8702 /* Count Primes.swift */; };
+		A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E22435CCB000CC8702 /* Valid Number.swift */; };
+		A07E16062435CCB000CC8702 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E42435CCB000CC8702 /* QuickSort.swift */; };
+		A07E16072435CCB000CC8702 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E62435CCB000CC8702 /* Queue.swift */; };
+		A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */; };
+		A07E16092435CCB000CC8702 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EA2435CCB000CC8702 /* LinkList.swift */; };
+		A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSA-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00B7A712435CC6E00E8D351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A00B7A752435CC6E00E8D351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00B7A782435CC6E00E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00B7A7A2435CC7100E8D351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00B7A7D2435CC7100E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07E15C52435CCB000CC8702 /* Executable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
+		A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
+		A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalOrderTraversal.swift; sourceTree = "<group>"; };
+		A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
+		A07E15CC2435CCB000CC8702 /* Kth Smallest Element in a BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kth Smallest Element in a BST.swift"; sourceTree = "<group>"; };
+		A07E15CD2435CCB000CC8702 /* LCA of a Binary Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCA of a Binary Tree.swift"; sourceTree = "<group>"; };
+		A07E15CE2435CCB000CC8702 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaximumDepthofBinaryTree.swift; sourceTree = "<group>"; };
+		A07E15D02435CCB000CC8702 /* MinimunDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimunDepth.swift; sourceTree = "<group>"; };
+		A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOrderTraversal.swift; sourceTree = "<group>"; };
+		A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaximumPathSum.swift; sourceTree = "<group>"; };
+		A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Shortest distance between two nodes in BST.swift"; sourceTree = "<group>"; };
+		A07E15D52435CCB000CC8702 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		A07E15D72435CCB000CC8702 /* KthLargestElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KthLargestElement.swift; sourceTree = "<group>"; };
+		A07E15D82435CCB000CC8702 /* Subsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		A07E15D92435CCB000CC8702 /* Jump Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Jump Game.swift"; sourceTree = "<group>"; };
+		A07E15DA2435CCB000CC8702 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
+		A07E15DD2435CCB000CC8702 /* WordLadder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
+		A07E15DF2435CCB000CC8702 /* Power.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		A07E15E02435CCB000CC8702 /* Palindrome Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palindrome Number.swift"; sourceTree = "<group>"; };
+		A07E15E12435CCB000CC8702 /* Count Primes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Count Primes.swift"; sourceTree = "<group>"; };
+		A07E15E22435CCB000CC8702 /* Valid Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Valid Number.swift"; sourceTree = "<group>"; };
+		A07E15E42435CCB000CC8702 /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		A07E15E62435CCB000CC8702 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Partition Equal Subset Sum.swift"; sourceTree = "<group>"; };
+		A07E15EA2435CCB000CC8702 /* LinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00B7A6B2435CC6E00E8D351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00B7A652435CC6E00E8D351 = {
+			isa = PBXGroup;
+			children = (
+				A00B7A702435CC6E00E8D351 /* DSA-Swift */,
+				A00B7A6F2435CC6E00E8D351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00B7A6F2435CC6E00E8D351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00B7A702435CC6E00E8D351 /* DSA-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15C62435CCB000CC8702 /* SocurceCode */,
+				A07E15C52435CCB000CC8702 /* Executable.swift */,
+				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
+				A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */,
+				A00B7A752435CC6E00E8D351 /* ViewController.swift */,
+				A00B7A772435CC6E00E8D351 /* Main.storyboard */,
+				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
+				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
+				A00B7A7F2435CC7100E8D351 /* Info.plist */,
+			);
+			path = "DSA-Swift";
+			sourceTree = "<group>";
+		};
+		A07E15C62435CCB000CC8702 /* SocurceCode */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15C72435CCB000CC8702 /* Tree */,
+				A07E15D42435CCB000CC8702 /* Cache */,
+				A07E15D62435CCB000CC8702 /* Array */,
+				A07E15DC2435CCB000CC8702 /* Graph */,
+				A07E15DE2435CCB000CC8702 /* Math */,
+				A07E15E32435CCB000CC8702 /* Sorting */,
+				A07E15E52435CCB000CC8702 /* Queue */,
+				A07E15E72435CCB000CC8702 /* DP */,
+				A07E15E92435CCB000CC8702 /* LinkList */,
+				A07E15EB2435CCB000CC8702 /* Matrix */,
+			);
+			path = SocurceCode;
+			sourceTree = "<group>";
+		};
+		A07E15C72435CCB000CC8702 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */,
+				A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */,
+				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
+				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
+				A07E15CC2435CCB000CC8702 /* Kth Smallest Element in a BST.swift */,
+				A07E15CD2435CCB000CC8702 /* LCA of a Binary Tree.swift */,
+				A07E15CE2435CCB000CC8702 /* Tree.swift */,
+				A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */,
+				A07E15D02435CCB000CC8702 /* MinimunDepth.swift */,
+				A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */,
+				A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */,
+				A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		A07E15D42435CCB000CC8702 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15D52435CCB000CC8702 /* LRUCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		A07E15D62435CCB000CC8702 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
+				A07E15D82435CCB000CC8702 /* Subsets.swift */,
+				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
+				A07E15DA2435CCB000CC8702 /* BinarySearch.swift */,
+				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		A07E15DC2435CCB000CC8702 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15DD2435CCB000CC8702 /* WordLadder.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		A07E15DE2435CCB000CC8702 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15DF2435CCB000CC8702 /* Power.swift */,
+				A07E15E02435CCB000CC8702 /* Palindrome Number.swift */,
+				A07E15E12435CCB000CC8702 /* Count Primes.swift */,
+				A07E15E22435CCB000CC8702 /* Valid Number.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		A07E15E32435CCB000CC8702 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15E42435CCB000CC8702 /* QuickSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		A07E15E52435CCB000CC8702 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15E62435CCB000CC8702 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		A07E15E72435CCB000CC8702 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		A07E15E92435CCB000CC8702 /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15EA2435CCB000CC8702 /* LinkList.swift */,
+			);
+			path = LinkList;
+			sourceTree = "<group>";
+		};
+		A07E15EB2435CCB000CC8702 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00B7A6D2435CC6E00E8D351 /* DSA-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00B7A822435CC7100E8D351 /* Build configuration list for PBXNativeTarget "DSA-Swift" */;
+			buildPhases = (
+				A00B7A6A2435CC6E00E8D351 /* Sources */,
+				A00B7A6B2435CC6E00E8D351 /* Frameworks */,
+				A00B7A6C2435CC6E00E8D351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DSA-Swift";
+			productName = "DSA-Swift";
+			productReference = A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00B7A662435CC6E00E8D351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Shivam Jaiswal";
+				TargetAttributes = {
+					A00B7A6D2435CC6E00E8D351 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = A00B7A692435CC6E00E8D351 /* Build configuration list for PBXProject "DSA-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00B7A652435CC6E00E8D351;
+			productRefGroup = A00B7A6F2435CC6E00E8D351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00B7A6D2435CC6E00E8D351 /* DSA-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00B7A6C2435CC6E00E8D351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */,
+				A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */,
+				A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00B7A6A2435CC6E00E8D351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */,
+				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
+				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
+				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
+				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
+				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
+				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,
+				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
+				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
+				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
+				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
+				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
+				A07E16042435CCB000CC8702 /* Count Primes.swift in Sources */,
+				A07E16002435CCB000CC8702 /* Subarray Sum Equals K.swift in Sources */,
+				A07E15F22435CCB000CC8702 /* Validate Binary Search Tree.swift in Sources */,
+				A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */,
+				A07E15F12435CCB000CC8702 /* VerticalOrderTraversal.swift in Sources */,
+				A07E15FF2435CCB000CC8702 /* BinarySearch.swift in Sources */,
+				A07E16072435CCB000CC8702 /* Queue.swift in Sources */,
+				A07E15F82435CCB000CC8702 /* LevelOrderTraversal.swift in Sources */,
+				A07E15F62435CCB000CC8702 /* MaximumDepthofBinaryTree.swift in Sources */,
+				A07E15F72435CCB000CC8702 /* MinimunDepth.swift in Sources */,
+				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
+				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
+				A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */,
+				A07E16022435CCB000CC8702 /* Power.swift in Sources */,
+				A07E16062435CCB000CC8702 /* QuickSort.swift in Sources */,
+				A07E15F32435CCB000CC8702 /* Kth Smallest Element in a BST.swift in Sources */,
+				A07E15F42435CCB000CC8702 /* LCA of a Binary Tree.swift in Sources */,
+				A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */,
+				A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */,
+				A07E15FA2435CCB000CC8702 /* Shortest distance between two nodes in BST.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A00B7A772435CC6E00E8D351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00B7A782435CC6E00E8D351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00B7A7D2435CC7100E8D351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00B7A802435CC7100E8D351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00B7A812435CC7100E8D351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00B7A832435CC7100E8D351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYU9SVC7P9;
+				INFOPLIST_FILE = "DSA-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsa.DSA-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00B7A842435CC7100E8D351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYU9SVC7P9;
+				INFOPLIST_FILE = "DSA-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsa.DSA-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00B7A692435CC6E00E8D351 /* Build configuration list for PBXProject "DSA-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00B7A802435CC7100E8D351 /* Debug */,
+				A00B7A812435CC7100E8D351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00B7A822435CC7100E8D351 /* Build configuration list for PBXNativeTarget "DSA-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00B7A832435CC7100E8D351 /* Debug */,
+				A00B7A842435CC7100E8D351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00B7A662435CC6E00E8D351 /* Project object */;
+}
