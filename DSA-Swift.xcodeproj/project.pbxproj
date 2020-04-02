@@ -43,6 +43,7 @@
 		A07E16092435CCB000CC8702 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EA2435CCB000CC8702 /* LinkList.swift */; };
 		A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */; };
 		A07E160C2435CE7500CC8702 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A07E160B2435CE7500CC8702 /* README.md */; };
+		A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		A07E15EA2435CCB000CC8702 /* LinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
 		A07E160B2435CE7500CC8702 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Sum Subsequence Non-Adjacent.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,16 +135,16 @@
 		A07E15C62435CCB000CC8702 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
-				A07E15C72435CCB000CC8702 /* Tree */,
-				A07E15D42435CCB000CC8702 /* Cache */,
 				A07E15D62435CCB000CC8702 /* Array */,
-				A07E15DC2435CCB000CC8702 /* Graph */,
-				A07E15DE2435CCB000CC8702 /* Math */,
-				A07E15E32435CCB000CC8702 /* Sorting */,
-				A07E15E52435CCB000CC8702 /* Queue */,
+				A07E15D42435CCB000CC8702 /* Cache */,
 				A07E15E72435CCB000CC8702 /* DP */,
+				A07E15DC2435CCB000CC8702 /* Graph */,
 				A07E15E92435CCB000CC8702 /* LinkList */,
+				A07E15DE2435CCB000CC8702 /* Math */,
 				A07E15EB2435CCB000CC8702 /* Matrix */,
+				A07E15E52435CCB000CC8702 /* Queue */,
+				A07E15E32435CCB000CC8702 /* Sorting */,
+				A07E15C72435CCB000CC8702 /* Tree */,
 			);
 			path = SocurceCode;
 			sourceTree = "<group>";
@@ -177,11 +179,11 @@
 		A07E15D62435CCB000CC8702 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
-				A07E15D82435CCB000CC8702 /* Subsets.swift */,
-				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
 				A07E15DA2435CCB000CC8702 /* BinarySearch.swift */,
+				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
+				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
 				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
+				A07E15D82435CCB000CC8702 /* Subsets.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */,
+				A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
+				A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */,
 				A07E16042435CCB000CC8702 /* Count Primes.swift in Sources */,
 				A07E16002435CCB000CC8702 /* Subarray Sum Equals K.swift in Sources */,
 				A07E15F22435CCB000CC8702 /* Validate Binary Search Tree.swift in Sources */,
