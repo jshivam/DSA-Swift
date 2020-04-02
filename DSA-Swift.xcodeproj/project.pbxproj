@@ -42,6 +42,7 @@
 		A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */; };
 		A07E16092435CCB000CC8702 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EA2435CCB000CC8702 /* LinkList.swift */; };
 		A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */; };
+		A07E160C2435CE7500CC8702 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A07E160B2435CE7500CC8702 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Partition Equal Subset Sum.swift"; sourceTree = "<group>"; };
 		A07E15EA2435CCB000CC8702 /* LinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
+		A07E160B2435CE7500CC8702 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
 				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
 				A00B7A7F2435CC7100E8D351 /* Info.plist */,
+				A07E160B2435CE7500CC8702 /* README.md */,
 			);
 			path = "DSA-Swift";
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */,
 				A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */,
+				A07E160C2435CE7500CC8702 /* README.md in Resources */,
 				A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
