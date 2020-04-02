@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        MaximumSumSubsequenceNonAdjacent.init().excecute()
+        Coin_Change.init().excecute()
     }
 }
 

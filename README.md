@@ -32,6 +32,7 @@ Data Structures and Algorithms in Swift
 ## Dynamic Programming
 1. [Partition Equal Subset Sum](DSA-Swift/SocurceCode/DP/Partition%20Equal%20Subset%20Sum.swift)
 2. [Maximum Sum Subsequence NonAdjacent](DSA-Swift/SocurceCode/DP/Maximum%20Sum%20Subsequence%20Non-Adjacent.swift)
+3. [Coin Change](DSA-Swift/SocurceCode/DP/Coin%20Change.swift)
 
 ## Graph
 1. [WordLadder](DSA-Swift/SocurceCode/Graph/WordLadder.swift)
