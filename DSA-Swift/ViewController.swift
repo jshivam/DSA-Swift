@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Best_Time_to_Buy_and_Sell_Stock.init().excecute()
+        House_Robber.init().excecute()
     }
 }
 
