@@ -20,6 +20,7 @@ Data Structures and Algorithms in Swift
 11. [VerticalOrderTraversal](DSA-Swift/SocurceCode/Tree/VerticalOrderTraversal.swift)
 12. [Sum Tree](DSA-Swift/SocurceCode/Tree/Sum%20Tree.swift)
 13. [Binary Tree Paths](DSA-Swift/SocurceCode/Tree/Binary%20Tree%20Paths.swift)
+14. [Recover Binary Search Tree](DSA-Swift/SocurceCode/Tree/Recover%20Binary%20Search%20Tree.swift)
 
 ## Array
 1. [Binary Search](DSA-Swift/SocurceCode/Array/BinarySearch.swift)
