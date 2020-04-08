@@ -18,6 +18,7 @@ Data Structures and Algorithms in Swift
 9. [Shortest distance between two nodes in BST](DSA-Swift/SocurceCode/Tree/Shortest%20distance%20between%20two%20nodes%20in%20BST.swift)
 10. [Validate Binary Search Tree](DSA-Swift/SocurceCode/Tree/Validate%20Binary%20Search%20Tree.swift)
 11. [VerticalOrderTraversal](DSA-Swift/SocurceCode/Tree/VerticalOrderTraversal.swift)
+12. [Sum Tree]((DSA-Swift/SocurceCode/Tree/Sum%20Tree.swift))
 
 ## Array
 1. [Binary Search](DSA-Swift/SocurceCode/Array/BinarySearch.swift)

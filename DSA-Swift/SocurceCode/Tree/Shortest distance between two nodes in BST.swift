@@ -13,11 +13,11 @@ extension TreeNode {
     {
         guard let root = root else { return 0 }
         
-        if root.val > a && root.val > b {
+        if root.value > a && root.value > b {
             return shortestDistanceBST(root.left, a: a, b: b)
         }
         
-        if root.val < a && root.val < b {
+        if root.value < a && root.value < b {
             return shortestDistanceBST(root.right, a: a, b: b)
         }
         
@@ -26,7 +26,7 @@ extension TreeNode {
     
     private func distanceBetween(_ root: TreeNode?, value: Int) -> Int {
         guard let root = root else { return 0 }
-        let nextNode = root.val > value ? root.left : root.right
+        let nextNode = root.value > value ? root.left : root.right
         return 1 + distanceBetween(nextNode, value: value)
     }
 }

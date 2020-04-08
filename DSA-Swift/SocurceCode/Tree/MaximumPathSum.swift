@@ -23,8 +23,8 @@ extension TreeNode
         guard let root = root else { return 0 }
         let left = maxPathSumUtil(root.left, sum: &sum)
         let right = maxPathSumUtil(root.right, sum: &sum)
-        let max_single = max(max(left, right) + root.val, root.val)
-        let max_top = max(max_single, left + right + root.val)
+        let max_single = max(max(left, right) + root.value, root.value)
+        let max_top = max(max_single, left + right + root.value)
         sum = max(sum, max_top)
         return max_single
     }

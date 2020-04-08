@@ -14,6 +14,7 @@
 		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
+		A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2624243DFC48008BAAF6 /* Sum Tree.swift */; };
 		A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C52435CCB000CC8702 /* Executable.swift */; };
 		A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */; };
 		A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */; };
@@ -61,6 +62,7 @@
 		A00B7A7D2435CC7100E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
+		A06B2624243DFC48008BAAF6 /* Sum Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Tree.swift"; sourceTree = "<group>"; };
 		A07E15C52435CCB000CC8702 /* Executable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
 		A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
 		A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */,
 				A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */,
 				A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */,
+				A06B2624243DFC48008BAAF6 /* Sum Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
 				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
 				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
+				A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */,
 				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,

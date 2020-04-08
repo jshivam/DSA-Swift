@@ -25,7 +25,7 @@ extension TreeNode
         count -= 1
 
         if count == 0{
-            result = root.val
+            result = root.value
             return
         }
         
