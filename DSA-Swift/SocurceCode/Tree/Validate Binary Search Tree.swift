@@ -18,12 +18,12 @@ extension TreeNode
     {
         guard let root = root else { return true }
 
-        if !range.contains(root.value) || range.lowerBound == root.value || range.upperBound == root.value {
+        if !range.contains(root.val) || range.lowerBound == root.val || range.upperBound == root.val {
             return false
         }
         
-        let left = isValidBSTUtil(root.left, range: range.lowerBound...root.value)
-        let right = isValidBSTUtil(root.right, range: root.value...range.upperBound)
+        let left = isValidBSTUtil(root.left, range: range.lowerBound...root.val)
+        let right = isValidBSTUtil(root.right, range: root.val...range.upperBound)
         return left && right
     }
 }

@@ -34,7 +34,7 @@ extension TreeNode
                 
                 let item = Q.dequeue()!
                 var distances = distanceMap[item.distance] ?? []
-                distances.append(item.node.value)
+                distances.append(item.node.val)
                 distanceMap[item.distance] = distances
                 
                 if let left = item.node.left {

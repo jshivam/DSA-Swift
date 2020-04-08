@@ -13,17 +13,17 @@ extension TreeNode {
         guard let root = root, !isLeaf(root) else { return true }
         let leftSum = sum(root.left)
         let rightSum = sum(root.right)
-        let isValidSum = rightSum + leftSum == root.value
+        let isValidSum = rightSum + leftSum == root.val
         return isValidSum && isSumTree(root.left) && isSumTree(root.right)
     }
 
-    func isLeaf(_ root: TreeNode?) -> Bool {
+    private func isLeaf(_ root: TreeNode?) -> Bool {
         guard let root = root else { return true }
         return root.left == nil && root.right == nil
     }
 
     func sum(_ root: TreeNode?) -> Int {
         guard let root = root else { return 0 }
-        return root.value + sum(root.left) + sum(root.right)
+        return root.val + sum(root.left) + sum(root.right)
     }
 }

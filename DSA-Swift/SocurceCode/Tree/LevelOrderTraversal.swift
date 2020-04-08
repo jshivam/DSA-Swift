@@ -26,7 +26,7 @@ extension TreeNode
             for _ in 0..<Q.size {
                 
                 let item = Q.dequeue()!
-                nodes.append(item.value)
+                nodes.append(item.val)
 
                 if let left = item.left {
                     Q.enqueue(left)

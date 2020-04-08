@@ -14,7 +14,7 @@ extension TreeNode
         
         guard let root = root else { return nil }
         
-        if root.value == value1 || root.value == value2 {
+        if root.val == value1 || root.val == value2 {
             return root
         }
         
