@@ -11,7 +11,16 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        House_Robber.init().excecute()
+        let list = LinkList<Int>.init()
+        for item in 1...4 {
+            list.append(item)
+        }
+
+        print(list.description)
+
+        LinkList.reorderList(list.head)
+
+        print(list.description)
     }
 }
 
