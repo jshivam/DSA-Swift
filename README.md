@@ -63,3 +63,6 @@ Data Structures and Algorithms in Swift
 
 ## Sorting
 1. [QuickSort](DSA-Swift/SocurceCode/QuickSort/QuickSort.swift)
+
+## Heap
+1. [Heap](DSA-Swift/SocurceCode/Heap/Heap.swift)

@@ -11,16 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let list = LinkList<Int>.init()
-        for item in 1...4 {
-            list.append(item)
-        }
-
-        print(list.description)
-
-        LinkList.reorderList(list.head)
-
-        print(list.description)
+        let heap = Heap.init()
+        heap.items = [9, 6, 5, 0, 8, 2, 1, 3]
+        heap.buildMaxHeap()
+        print(heap.items)
     }
 }
 

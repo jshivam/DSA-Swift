@@ -18,6 +18,7 @@
 		A06B2627243E08DB008BAAF6 /* Binary Tree Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */; };
 		A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */; };
 		A06B262B243E5396008BAAF6 /* Reorder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B262A243E5396008BAAF6 /* Reorder List.swift */; };
+		A06B262E243F829B008BAAF6 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B262D243F829B008BAAF6 /* Heap.swift */; };
 		A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C52435CCB000CC8702 /* Executable.swift */; };
 		A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */; };
 		A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */; };
@@ -69,6 +70,7 @@
 		A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Paths.swift"; sourceTree = "<group>"; };
 		A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recover Binary Search Tree.swift"; sourceTree = "<group>"; };
 		A06B262A243E5396008BAAF6 /* Reorder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reorder List.swift"; sourceTree = "<group>"; };
+		A06B262D243F829B008BAAF6 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		A07E15C52435CCB000CC8702 /* Executable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
 		A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
 		A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 			path = "DSA-Swift";
 			sourceTree = "<group>";
 		};
+		A06B262C243F8273008BAAF6 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				A06B262D243F829B008BAAF6 /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		A07E15C62435CCB000CC8702 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +167,7 @@
 				A07E15D42435CCB000CC8702 /* Cache */,
 				A07E15E72435CCB000CC8702 /* DP */,
 				A07E15DC2435CCB000CC8702 /* Graph */,
+				A06B262C243F8273008BAAF6 /* Heap */,
 				A07E15E92435CCB000CC8702 /* LinkList */,
 				A07E15DE2435CCB000CC8702 /* Math */,
 				A07E15EB2435CCB000CC8702 /* Matrix */,
@@ -348,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */,
+				A06B262E243F829B008BAAF6 /* Heap.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
