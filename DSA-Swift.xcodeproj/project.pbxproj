@@ -55,6 +55,7 @@
 		A0C830A82438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */; };
 		A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC888243626F900FDBF18 /* Coin Change.swift */; };
 		A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */; };
+		A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift"; sourceTree = "<group>"; };
 		A0EAC888243626F900FDBF18 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
 		A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
+		A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Delete GetRandom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */,
 				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
 				A07E15D82435CCB000CC8702 /* Subsets.swift */,
+				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
+				A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */,
 				A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */,
 				A06B2627243E08DB008BAAF6 /* Binary Tree Paths.swift in Sources */,
 				A07E16042435CCB000CC8702 /* Count Primes.swift in Sources */,

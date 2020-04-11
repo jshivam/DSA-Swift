@@ -11,7 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Minimum_Window_Substring.init().excecute()
+        let obj = RandomizedSet()
+        print(obj.remove(0))
+        print(obj.remove(0))
+        print(obj.insert(0))
+        print(obj.getRandom())
+        print(obj.remove(0))
+        print(obj.insert(0))
     }
 }
 
