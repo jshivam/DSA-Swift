@@ -166,7 +166,7 @@ class ValidNumber: Executable {
    }
 }
 
-extension String {
+private extension String {
     subscript (i: Int) -> Character {
         return self[index(startIndex, offsetBy: i)]
     }

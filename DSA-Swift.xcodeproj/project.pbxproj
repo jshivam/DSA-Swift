@@ -13,6 +13,7 @@
 		A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A772435CC6E00E8D351 /* Main.storyboard */; };
 		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
+		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
 		A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2624243DFC48008BAAF6 /* Sum Tree.swift */; };
 		A06B2627243E08DB008BAAF6 /* Binary Tree Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */; };
@@ -65,6 +66,7 @@
 		A00B7A7A2435CC7100E8D351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00B7A7D2435CC7100E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
 		A06B2624243DFC48008BAAF6 /* Sum Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Tree.swift"; sourceTree = "<group>"; };
 		A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Paths.swift"; sourceTree = "<group>"; };
@@ -214,9 +216,10 @@
 				A07E15DA2435CCB000CC8702 /* BinarySearch.swift */,
 				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
 				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
+				A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */,
+				A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */,
 				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
 				A07E15D82435CCB000CC8702 /* Subsets.swift */,
-				A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
 				A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */,
 				A07E16022435CCB000CC8702 /* Power.swift in Sources */,
+				A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */,
 				A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */,
 				A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */,
 				A07E16062435CCB000CC8702 /* QuickSort.swift in Sources */,
