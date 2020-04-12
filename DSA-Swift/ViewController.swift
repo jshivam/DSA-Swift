@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Frequencies_of_array_elements_in_range_1_to_n.init().excecute()
+        Delete_Products.init().excecute()
     }
 }
-

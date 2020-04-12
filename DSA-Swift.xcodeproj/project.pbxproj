@@ -52,6 +52,7 @@
 		A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */; };
 		A07E160C2435CE7500CC8702 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A07E160B2435CE7500CC8702 /* README.md */; };
 		A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */; };
+		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
 		A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */; };
 		A0C830A82438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */; };
 		A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC888243626F900FDBF18 /* Coin Change.swift */; };
@@ -107,6 +108,7 @@
 		A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
 		A07E160B2435CE7500CC8702 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Sum Subsequence Non-Adjacent.swift"; sourceTree = "<group>"; };
+		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
 		A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift"; sourceTree = "<group>"; };
 		A0EAC888243626F900FDBF18 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				A07E15D82435CCB000CC8702 /* Subsets.swift */,
 				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
 				A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */,
+				A0BD64402443604000C7A613 /* Delete Products.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				A06B262E243F829B008BAAF6 /* Heap.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
+				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
 				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
 				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
