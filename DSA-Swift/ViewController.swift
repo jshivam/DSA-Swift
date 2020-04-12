@@ -11,13 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let obj = RandomizedSet()
-        print(obj.remove(0))
-        print(obj.remove(0))
-        print(obj.insert(0))
-        print(obj.getRandom())
-        print(obj.remove(0))
-        print(obj.insert(0))
+        Frequencies_of_array_elements_in_range_1_to_n.init().excecute()
     }
 }
 
