@@ -69,3 +69,6 @@ Data Structures and Algorithms in Swift
 
 ## Heap
 1. [Heap](DSA-Swift/SocurceCode/Heap/Heap.swift)
+
+## Tri
+1. [Tri](DSA-Swift/SocurceCode/Heap/Tri.swift)

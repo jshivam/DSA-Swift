@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A712435CC6E00E8D351 /* AppDelegate.swift */; };
 		A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
 		A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A752435CC6E00E8D351 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSA-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00B7A712435CC6E00E8D351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A00107D0244491F3000030EA /* Tri */ = {
+			isa = PBXGroup;
+			children = (
+				A00107D124449214000030EA /* Tri.swift */,
+			);
+			path = Tri;
+			sourceTree = "<group>";
+		};
 		A00B7A652435CC6E00E8D351 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +192,7 @@
 				A07E15E52435CCB000CC8702 /* Queue */,
 				A07E15E32435CCB000CC8702 /* Sorting */,
 				A07E15C72435CCB000CC8702 /* Tree */,
+				A00107D0244491F3000030EA /* Tri */,
 			);
 			path = SocurceCode;
 			sourceTree = "<group>";
@@ -373,6 +384,7 @@
 				A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */,
 				A06B262E243F829B008BAAF6 /* Heap.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
+				A00107D224449214000030EA /* Tri.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
 				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
