@@ -8,59 +8,32 @@
 
 import UIKit
 
-class QuickSort<Element: Comparable>: Executable
-{
-    private var items: [Element]
-    
-    init(items: [Element]) {
-        self.items = items
+extension Sorter {
+    func quickSort(_ items: inout [Item], left: Int, right: Int) {
+        guard left < right else { return }
+        let partionIndex = partion(&items, left: left, right: right )
+        quickSort(&items, left: left, right: partionIndex - 1)
+        quickSort(&items, left: partionIndex + 1, right: right)
     }
-    
-    func excecute()
-    {
-        quicksort(&items, left: 0, right: items.count - 1)
-        print(items)
-    }
-    
-    private func quicksort(_ array: inout [Element], left: Int, right: Int)
-    {
-        if left >= right {
-            return
-        }
-        
-        let pivotIndex = (left + right)/2
-        let partionIndex = partion(&array, left: left, right: right, pivot: pivotIndex)
-        quicksort(&array, left: left, right: (partionIndex - 1))
-        quicksort(&array, left: (partionIndex + 1), right: right)
-    }
-    
-    private func partion(_ array: inout [Element], left: Int, right: Int, pivot: Int) -> Int
-    {
+
+    private func partion(_ array: inout [Item], left: Int, right: Int) -> Int {
+        let pivot = array[(left + right)/2]
         var left = left
         var right = right
-        
-        while left < right
-        {
-            if array[left] < array[pivot] {
+
+        while left < right {
+            if array[left] < pivot {
                 left += 1
                 continue
             }
-            
-            if array[right] > array[pivot] {
+
+            if array[right] > pivot {
                 right -= 1
                 continue
             }
-            
-            swap(&array, left: left, right: right)
-            left += 1
-            right = 1
+            array.swapAt(left, right)
         }
-        return left
+        return right
     }
-    
-    private func swap(_ array: inout [Element], left: Int, right: Int) {
-        let temp = array[left]
-        array[left] = array[right]
-        array[right] = temp
-    }
+
 }
