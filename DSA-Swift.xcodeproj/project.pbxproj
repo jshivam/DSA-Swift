@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
+		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
 		A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A712435CC6E00E8D351 /* AppDelegate.swift */; };
 		A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
 		A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A752435CC6E00E8D351 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */; };
 		A06B262B243E5396008BAAF6 /* Reorder List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B262A243E5396008BAAF6 /* Reorder List.swift */; };
 		A06B262E243F829B008BAAF6 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B262D243F829B008BAAF6 /* Heap.swift */; };
+		A070C35F2445D9120057E550 /* Sorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070C35E2445D9120057E550 /* Sorter.swift */; };
 		A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C52435CCB000CC8702 /* Executable.swift */; };
 		A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */; };
 		A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */; };
@@ -63,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
+		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSA-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00B7A712435CC6E00E8D351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recover Binary Search Tree.swift"; sourceTree = "<group>"; };
 		A06B262A243E5396008BAAF6 /* Reorder List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reorder List.swift"; sourceTree = "<group>"; };
 		A06B262D243F829B008BAAF6 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		A070C35E2445D9120057E550 /* Sorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorter.swift; sourceTree = "<group>"; };
 		A07E15C52435CCB000CC8702 /* Executable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
 		A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
 		A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
@@ -267,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				A07E15E42435CCB000CC8702 /* QuickSort.swift */,
+				A00107D32444B6BF000030EA /* MergeSort.swift */,
+				A070C35E2445D9120057E550 /* Sorter.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -387,6 +393,7 @@
 				A00107D224449214000030EA /* Tri.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
 				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
+				A070C35F2445D9120057E550 /* Sorter.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
 				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
 				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
@@ -413,6 +420,7 @@
 				A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */,
 				A07E15F62435CCB000CC8702 /* MaximumDepthofBinaryTree.swift in Sources */,
 				A0C830A82438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift in Sources */,
+				A00107D42444B6BF000030EA /* MergeSort.swift in Sources */,
 				A07E15F72435CCB000CC8702 /* MinimunDepth.swift in Sources */,
 				A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,

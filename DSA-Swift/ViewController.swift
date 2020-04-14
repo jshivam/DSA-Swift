@@ -11,16 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tri = Tri<String>()
-        tri.add("abc")
-        tri.add("abgl")
-        tri.add("cdf")
-        tri.add("abc")
-        tri.add("abcd")
-        tri.add("lmn")
-
-        print(tri.search("abc"))
-        print(tri.search("adada"))
-        print(tri.search("adada"))
+        let array = [3, 4, 1, 5, 5, 6, 9, 0]
+        let sorter = Sorter<Int>()
+        print(sorter.sort(array, using: .mergeSort))
     }
 }
