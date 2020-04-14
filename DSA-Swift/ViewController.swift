@@ -11,8 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let array = [3, 4, 1, 5, 5, 6, 9, 0]
+        let array = [10, 80, 30, 90, 40, 50, 70]
         let sorter = Sorter<Int>()
-        print(sorter.sort(array, using: .mergeSort))
+//        print(sorter.sort(array, using: .mergeSort))
+        print(sorter.sort(array, using: .quickSort))
     }
 }
