@@ -15,9 +15,11 @@
 		A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A772435CC6E00E8D351 /* Main.storyboard */; };
 		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
+		A041D196244733020063BB30 /* Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041D195244733020063BB30 /* Edit Distance.swift */; };
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
 		A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */; };
+		A062CAF92447693F00521419 /* todoList in Resources */ = {isa = PBXBuildFile; fileRef = A062CAF82447693F00521419 /* todoList */; };
 		A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2624243DFC48008BAAF6 /* Sum Tree.swift */; };
 		A06B2627243E08DB008BAAF6 /* Binary Tree Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */; };
 		A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */; };
@@ -75,9 +77,11 @@
 		A00B7A7A2435CC7100E8D351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00B7A7D2435CC7100E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A041D195244733020063BB30 /* Edit Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Distance.swift"; sourceTree = "<group>"; };
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
 		A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Frequencies of array elements in range 1 to n.swift"; sourceTree = "<group>"; };
+		A062CAF82447693F00521419 /* todoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = todoList; sourceTree = "<group>"; };
 		A06B2624243DFC48008BAAF6 /* Sum Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Tree.swift"; sourceTree = "<group>"; };
 		A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Paths.swift"; sourceTree = "<group>"; };
 		A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recover Binary Search Tree.swift"; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
 				A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */,
 				A00B7A752435CC6E00E8D351 /* ViewController.swift */,
+				A062CAF82447693F00521419 /* todoList */,
 				A00B7A772435CC6E00E8D351 /* Main.storyboard */,
 				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
 				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
@@ -297,6 +302,7 @@
 				A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */,
 				A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */,
 				A05C7F42243A196000CB5854 /* House Robber.swift */,
+				A041D195244733020063BB30 /* Edit Distance.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */,
+				A062CAF92447693F00521419 /* todoList in Resources */,
 				A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */,
 				A07E160C2435CE7500CC8702 /* README.md in Resources */,
 				A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */,
@@ -413,6 +420,7 @@
 				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
+				A041D196244733020063BB30 /* Edit Distance.swift in Sources */,
 				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,

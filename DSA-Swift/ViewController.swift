@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Permutations.init().excecute()
+        Edit_Distance.init().excecute()
     }
 }
