@@ -15,6 +15,7 @@
 		A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A772435CC6E00E8D351 /* Main.storyboard */; };
 		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
+		A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */; };
 		A041D196244733020063BB30 /* Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041D195244733020063BB30 /* Edit Distance.swift */; };
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
@@ -77,6 +78,7 @@
 		A00B7A7A2435CC7100E8D351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A00B7A7D2435CC7100E8D351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K-diff Pairs in an Array.swift"; sourceTree = "<group>"; };
 		A041D195244733020063BB30 /* Edit Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Distance.swift"; sourceTree = "<group>"; };
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
 				A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */,
 				A0BD64402443604000C7A613 /* Delete Products.swift */,
+				A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				A07E16002435CCB000CC8702 /* Subarray Sum Equals K.swift in Sources */,
 				A06B262B243E5396008BAAF6 /* Reorder List.swift in Sources */,
 				A07E15F22435CCB000CC8702 /* Validate Binary Search Tree.swift in Sources */,
+				A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */,
 				A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */,
 				A07E15F12435CCB000CC8702 /* VerticalOrderTraversal.swift in Sources */,
 				A07E15FF2435CCB000CC8702 /* BinarySearch.swift in Sources */,

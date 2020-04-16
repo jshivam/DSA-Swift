@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Edit_Distance.init().excecute()
+        K_diff_Pairs_in_an_Array.init().excecute()
     }
 }
