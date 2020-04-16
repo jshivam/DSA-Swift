@@ -19,6 +19,7 @@
 		A041D196244733020063BB30 /* Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041D195244733020063BB30 /* Edit Distance.swift */; };
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A04E731D244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */; };
+		A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
 		A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */; };
 		A062CAF92447693F00521419 /* todoList in Resources */ = {isa = PBXBuildFile; fileRef = A062CAF82447693F00521419 /* todoList */; };
@@ -83,6 +84,7 @@
 		A041D195244733020063BB30 /* Edit Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Distance.swift"; sourceTree = "<group>"; };
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Product Sum Among All Rotations.swift"; sourceTree = "<group>"; };
+		A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Swaps To Sort An Array.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
 		A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Frequencies of array elements in range 1 to n.swift"; sourceTree = "<group>"; };
 		A062CAF82447693F00521419 /* todoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = todoList; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				A0BD64402443604000C7A613 /* Delete Products.swift */,
 				A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */,
 				A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */,
+				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
+				A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */,
 				A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */,
 				A07E16022435CCB000CC8702 /* Power.swift in Sources */,
 				A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */,

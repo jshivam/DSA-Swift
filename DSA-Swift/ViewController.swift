@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Maximum_Product_Sum_Among_All_Rotations.init().excecute()
+        Minimum_Swaps_To_Sort_An_Array.init().excecute()
     }
 }
