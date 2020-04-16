@@ -34,6 +34,7 @@ Data Structures and Algorithms in Swift
 8. [Frequencies of array elements in range 1 to n](DSA-Swift/SocurceCode/Array/Frequencies%20of%20array%20elements%20in%20range%201%20to%20n.swift)
 9. [Delete Products](DSA-Swift/SocurceCode/Array/Delete%20Products.swift)
 10. [K-diff Pairs in an Array](DSA-Swift/SocurceCode/Array/K-diff%20Pairs%20in%20an%20Array.swift)
+11. [Maximum Product Sum Among All Rotations](DSA-Swift/SocurceCode/Array/Maximum%20Product%20Sum%20Among%20All%20Rotations.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
