@@ -54,6 +54,7 @@ Data Structures and Algorithms in Swift
 5. [Best Time to Buy and Sell Stock](DSA-Swift/SocurceCode/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock.swift)
 6. [House Robber](DSA-Swift/SocurceCode/DP/House%20Robber.swift)
 7. [Edit Distance](DSA-Swift/SocurceCode/DP/Edit%20Distance.swift)
+8. [Longest Increasing Subsequence](DSA-Swift/SocurceCode/DP/Longest%20Increasing%20Subsequence.swift)
 
 ## Graph
 1. [WordLadder](DSA-Swift/SocurceCode/Graph/WordLadder.swift)
