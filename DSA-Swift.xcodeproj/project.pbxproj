@@ -228,7 +228,6 @@
 		A07E15C62435CCB000CC8702 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
-				A0F5ECC62450890A0010EA05 /* Stack */,
 				A07E15D62435CCB000CC8702 /* Array */,
 				A0A3A23F2446393100B52B42 /* Backtracking */,
 				A07E15D42435CCB000CC8702 /* Cache */,
@@ -240,6 +239,7 @@
 				A07E15EB2435CCB000CC8702 /* Matrix */,
 				A07E15E52435CCB000CC8702 /* Queue */,
 				A07E15E32435CCB000CC8702 /* Sorting */,
+				A0F5ECC62450890A0010EA05 /* Stack */,
 				A07E15C72435CCB000CC8702 /* Tree */,
 				A00107D0244491F3000030EA /* Tri */,
 			);
@@ -271,6 +271,7 @@
 		A07E15D42435CCB000CC8702 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
 				A07E15D52435CCB000CC8702 /* LRUCache.swift */,
 			);
 			path = Cache;
@@ -280,26 +281,25 @@
 			isa = PBXGroup;
 			children = (
 				A07E15DA2435CCB000CC8702 /* BinarySearch.swift */,
-				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
-				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
-				A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */,
-				A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */,
-				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
-				A07E15D82435CCB000CC8702 /* Subsets.swift */,
-				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
-				A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */,
 				A0BD64402443604000C7A613 /* Delete Products.swift */,
+				A0C282992450F6C5006649E2 /* Find Peak Element.swift */,
+				A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */,
+				A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */,
+				A07E15D92435CCB000CC8702 /* Jump Game.swift */,
 				A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */,
+				A07E15D72435CCB000CC8702 /* KthLargestElement.swift */,
+				A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */,
+				A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */,
 				A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */,
 				A0F5ECCD245090150010EA05 /* Maximum Subarray.swift */,
-				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
-				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
-				A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */,
-				A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */,
-				A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */,
 				A0C282912450BA63006649E2 /* Merge Intervals.swift */,
-				A0C282992450F6C5006649E2 /* Find Peak Element.swift */,
+				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
+				A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */,
+				A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */,
 				A0C2829B2450F7B6006649E2 /* Sort Colors.swift */,
+				A07E15DB2435CCB000CC8702 /* Subarray Sum Equals K.swift */,
+				A07E15D82435CCB000CC8702 /* Subsets.swift */,
+				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -315,9 +315,9 @@
 		A07E15DE2435CCB000CC8702 /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				A07E15DF2435CCB000CC8702 /* Power.swift */,
-				A07E15E02435CCB000CC8702 /* Palindrome Number.swift */,
 				A07E15E12435CCB000CC8702 /* Count Primes.swift */,
+				A07E15E02435CCB000CC8702 /* Palindrome Number.swift */,
+				A07E15DF2435CCB000CC8702 /* Power.swift */,
 				A07E15E22435CCB000CC8702 /* Valid Number.swift */,
 			);
 			path = Math;
@@ -326,8 +326,8 @@
 		A07E15E32435CCB000CC8702 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				A07E15E42435CCB000CC8702 /* QuickSort.swift */,
 				A00107D32444B6BF000030EA /* MergeSort.swift */,
+				A07E15E42435CCB000CC8702 /* QuickSort.swift */,
 				A070C35E2445D9120057E550 /* Sorter.swift */,
 			);
 			path = Sorting;
@@ -344,15 +344,15 @@
 		A07E15E72435CCB000CC8702 /* DP */ = {
 			isa = PBXGroup;
 			children = (
-				A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */,
-				A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */,
-				A0EAC888243626F900FDBF18 /* Coin Change.swift */,
-				A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */,
 				A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */,
-				A05C7F42243A196000CB5854 /* House Robber.swift */,
+				A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */,
+				A0EAC888243626F900FDBF18 /* Coin Change.swift */,
 				A041D195244733020063BB30 /* Edit Distance.swift */,
+				A05C7F42243A196000CB5854 /* House Robber.swift */,
 				A04E73202448E81D007CE243 /* Interleaving String.swift */,
 				A0C282932450BB5D006649E2 /* Longest Increasing Subsequence.swift */,
+				A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */,
+				A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -370,9 +370,9 @@
 			isa = PBXGroup;
 			children = (
 				A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */,
-				A0C2828F2450B997006649E2 /* Spiral Matrix.swift */,
-				A0C282952450BC1D006649E2 /* Set Matrix Zeroes.swift */,
 				A0C282972450F5DD006649E2 /* Search a 2D Matrix II.swift */,
+				A0C282952450BC1D006649E2 /* Set Matrix Zeroes.swift */,
+				A0C2828F2450B997006649E2 /* Spiral Matrix.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -380,8 +380,8 @@
 		A0A3A23F2446393100B52B42 /* Backtracking */ = {
 			isa = PBXGroup;
 			children = (
-				A0A3A2402446394E00B52B42 /* Permutations.swift */,
 				A0F5ECC924508AAC0010EA05 /* Generate Parentheses.swift */,
+				A0A3A2402446394E00B52B42 /* Permutations.swift */,
 			);
 			path = Backtracking;
 			sourceTree = "<group>";
