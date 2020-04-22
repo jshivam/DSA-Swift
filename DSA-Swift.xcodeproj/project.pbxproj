@@ -72,6 +72,7 @@
 		A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */; };
 		A0F5ECC82450891C0010EA05 /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */; };
 		A0F5ECCA24508AAC0010EA05 /* Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC924508AAC0010EA05 /* Generate Parentheses.swift */; };
+		A0F5ECCC24508C150010EA05 /* Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 		A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 		A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A0F5ECC924508AAC0010EA05 /* Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Parentheses.swift"; sourceTree = "<group>"; };
+		A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anagrams.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
 				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
 				A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */,
+				A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */,
 				A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
+				A0F5ECCC24508C150010EA05 /* Group Anagrams.swift in Sources */,
 				A00107D224449214000030EA /* Tri.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
 				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
