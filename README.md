@@ -39,6 +39,7 @@ Data Structures and Algorithms in Swift
 13. [Two Sum](DSA-Swift/SocurceCode/Array/Two%20Sum.swift)
 14. [Longest Common Prefix](DSA-Swift/SocurceCode/Array/Longest%20Common%20Prefix.swift)
 15. [Group Anagrams](DSA-Swift/SocurceCode/Array/Group%20Anagrams.swift)
+16. [Maximum Subarray](DSA-Swift/SocurceCode/Array/Maximum%20Subarray.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
