@@ -54,6 +54,10 @@ Data Structures and Algorithms in Swift
 ## Graph
 1. [WordLadder](DSA-Swift/SocurceCode/Graph/WordLadder.swift)
 
+## Backtracking
+1. [Permutations](DSA-Swift/SocurceCode/Backtracking/Permutations.swift)
+2. [Generate Parentheses](DSA-Swift/SocurceCode/Backtracking/Generate%20Parentheses.swift)
+
 ## LinkList
 1. [LinkList](DSA-Swift/SocurceCode/LinkList/LinkList.swift)
 2. [Reorder List](DSA-Swift/SocurceCode/LinkList/Reorder%20List.swift)
@@ -82,6 +86,3 @@ Data Structures and Algorithms in Swift
 
 ## Tri
 1. [Tri](DSA-Swift/SocurceCode/Tri/Tri.swift)
-
-## Backtracking
-1. [Permutations](DSA-Swift/SocurceCode/Backtracking/Permutations.swift)
