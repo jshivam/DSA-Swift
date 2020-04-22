@@ -41,6 +41,7 @@ Data Structures and Algorithms in Swift
 15. [Group Anagrams](DSA-Swift/SocurceCode/Array/Group%20Anagrams.swift)
 16. [Maximum Subarray](DSA-Swift/SocurceCode/Array/Maximum%20Subarray.swift)
 17. [Longest Consecutive Sequence](DSA-Swift/SocurceCode/Array/Longest%20Consecutive%20Sequence.swift)
+18. [Merge Intervals](DSA-Swift/SocurceCode/Array/Merge%20Intervals.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)

@@ -65,6 +65,7 @@
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
 		A0C2828E2450B90F006649E2 /* Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */; };
 		A0C282902450B997006649E2 /* Spiral Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2828F2450B997006649E2 /* Spiral Matrix.swift */; };
+		A0C282922450BA63006649E2 /* Merge Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C282912450BA63006649E2 /* Merge Intervals.swift */; };
 		A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */; };
 		A0C830A82438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */; };
 		A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC888243626F900FDBF18 /* Coin Change.swift */; };
@@ -139,6 +140,7 @@
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
 		A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
 		A0C2828F2450B997006649E2 /* Spiral Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spiral Matrix.swift"; sourceTree = "<group>"; };
+		A0C282912450BA63006649E2 /* Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Intervals.swift"; sourceTree = "<group>"; };
 		A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		A0C830A72438A3DB001E0D35 /* Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smallest positive integer value that cannot be represented as sum of any subset of a given array.swift"; sourceTree = "<group>"; };
 		A0EAC888243626F900FDBF18 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */,
 				A0F5ECCB24508C150010EA05 /* Group Anagrams.swift */,
 				A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */,
+				A0C282912450BA63006649E2 /* Merge Intervals.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				A041D196244733020063BB30 /* Edit Distance.swift in Sources */,
 				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
+				A0C282922450BA63006649E2 /* Merge Intervals.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
 				A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */,
