@@ -69,6 +69,7 @@
 		A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */; };
 		A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */; };
 		A0F5ECC3245084DE0010EA05 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC2245084DE0010EA05 /* Two Sum.swift */; };
+		A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +137,7 @@
 		A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
 		A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Delete GetRandom.swift"; sourceTree = "<group>"; };
 		A0F5ECC2245084DE0010EA05 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
+		A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +268,7 @@
 				A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */,
 				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
 				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
+				A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */,
 				A06B262E243F829B008BAAF6 /* Heap.swift in Sources */,
 				A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */,
+				A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,
 				A00107D224449214000030EA /* Tri.swift in Sources */,
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,

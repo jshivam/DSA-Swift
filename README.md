@@ -36,7 +36,8 @@ Data Structures and Algorithms in Swift
 10. [K-diff Pairs in an Array](DSA-Swift/SocurceCode/Array/K-diff%20Pairs%20in%20an%20Array.swift)
 11. [Maximum Product Sum Among All Rotations](DSA-Swift/SocurceCode/Array/Maximum%20Product%20Sum%20Among%20All%20Rotations.swift)
 12. [Minimum Swaps To Sort An Array](DSA-Swift/SocurceCode/Array/Minimum%20Swaps%20To%20Sort%20An%20Array.swift)
-13. [Two Sum](DSA-Swift/SocurceCode/Array/Two%20Sum.swift) 
+13. [Two Sum](DSA-Swift/SocurceCode/Array/Two%20Sum.swift)
+14. [Longest Common Prefix](DSA-Swift/SocurceCode/Array/Longest%20Common%20Prefix.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
