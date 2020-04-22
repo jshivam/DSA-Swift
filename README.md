@@ -77,6 +77,7 @@ Data Structures and Algorithms in Swift
 1. [Diagonal Traverse](DSA-Swift/SocurceCode/Matrix/Diagonal%20Traverse.swift)
 2. [Spiral Matrix](DSA-Swift/SocurceCode/Matrix/Spiral%20Matrix.swift)
 3. [Set Matrix Zeroes](DSA-Swift/SocurceCode/Matrix/Set%20Matrix%20Zeroes.swift)
+4. [Search a 2D Matrix II](DSA-Swift/SocurceCode/Matrix/Search%20a%202D%20Matrix%20II.swift)
 
 ## Queue
 1. [Queue](DSA-Swift/SocurceCode/Queue/Queue.swift)
