@@ -70,6 +70,9 @@ Data Structures and Algorithms in Swift
 ## Queue
 1. [Queue](DSA-Swift/SocurceCode/Queue/Queue.swift)
 
+## Stack
+1. [Valid Parentheses](DSA-Swift/SocurceCode/Stack/Valid%20Parentheses.swift)
+
 ## Sorting
 1. [QuickSort](DSA-Swift/SocurceCode/Sorting/QuickSort.swift)
 2. [MergeSort](DSA-Swift/SocurceCode/Sorting/MergeSort.swift)

@@ -70,6 +70,7 @@
 		A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */; };
 		A0F5ECC3245084DE0010EA05 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC2245084DE0010EA05 /* Two Sum.swift */; };
 		A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */; };
+		A0F5ECC82450891C0010EA05 /* Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +139,7 @@
 		A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Delete GetRandom.swift"; sourceTree = "<group>"; };
 		A0F5ECC2245084DE0010EA05 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
 		A0F5ECC4245085F40010EA05 /* Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Parentheses.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		A07E15C62435CCB000CC8702 /* SocurceCode */ = {
 			isa = PBXGroup;
 			children = (
+				A0F5ECC62450890A0010EA05 /* Stack */,
 				A07E15D62435CCB000CC8702 /* Array */,
 				A0A3A23F2446393100B52B42 /* Backtracking */,
 				A07E15D42435CCB000CC8702 /* Cache */,
@@ -350,6 +353,14 @@
 			path = Backtracking;
 			sourceTree = "<group>";
 		};
+		A0F5ECC62450890A0010EA05 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -442,6 +453,7 @@
 				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
+				A0F5ECC82450891C0010EA05 /* Valid Parentheses.swift in Sources */,
 				A041D196244733020063BB30 /* Edit Distance.swift in Sources */,
 				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
