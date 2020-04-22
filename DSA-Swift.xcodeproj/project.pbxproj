@@ -20,6 +20,7 @@
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A04E731D244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */; };
 		A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */; };
+		A04E73212448E81D007CE243 /* Interleaving String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E73202448E81D007CE243 /* Interleaving String.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
 		A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */; };
 		A062CAF92447693F00521419 /* todoList in Resources */ = {isa = PBXBuildFile; fileRef = A062CAF82447693F00521419 /* todoList */; };
@@ -85,6 +86,7 @@
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Product Sum Among All Rotations.swift"; sourceTree = "<group>"; };
 		A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Swaps To Sort An Array.swift"; sourceTree = "<group>"; };
+		A04E73202448E81D007CE243 /* Interleaving String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interleaving String.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
 		A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Frequencies of array elements in range 1 to n.swift"; sourceTree = "<group>"; };
 		A062CAF82447693F00521419 /* todoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = todoList; sourceTree = "<group>"; };
@@ -218,21 +220,21 @@
 		A07E15C72435CCB000CC8702 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */,
 				A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */,
 				A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */,
-				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
-				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
 				A07E15CC2435CCB000CC8702 /* Kth Smallest Element in a BST.swift */,
 				A07E15CD2435CCB000CC8702 /* LCA of a Binary Tree.swift */,
-				A07E15CE2435CCB000CC8702 /* Tree.swift */,
-				A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */,
-				A07E15D02435CCB000CC8702 /* MinimunDepth.swift */,
 				A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */,
+				A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */,
 				A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */,
+				A07E15D02435CCB000CC8702 /* MinimunDepth.swift */,
+				A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */,
 				A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */,
 				A06B2624243DFC48008BAAF6 /* Sum Tree.swift */,
-				A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */,
-				A06B2628243E42DE008BAAF6 /* Recover Binary Search Tree.swift */,
+				A07E15CE2435CCB000CC8702 /* Tree.swift */,
+				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
+				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -312,6 +314,7 @@
 				A0C830A524387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift */,
 				A05C7F42243A196000CB5854 /* House Robber.swift */,
 				A041D195244733020063BB30 /* Edit Distance.swift */,
+				A04E73202448E81D007CE243 /* Interleaving String.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
 				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
 				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
+				A04E73212448E81D007CE243 /* Interleaving String.swift in Sources */,
 				A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */,
 				A04E731D244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift in Sources */,
 				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,

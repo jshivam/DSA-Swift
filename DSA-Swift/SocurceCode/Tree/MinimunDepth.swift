@@ -14,15 +14,10 @@ extension TreeNode{
         if root.left == nil && root.right == nil {
             return 1
         }
-        
-        if root.left == nil {
-            return minDepth(root.right) + 1
-        }
 
-        if root.right == nil {
-            return minDepth(root.left) + 1
-        }
-        
-        return min(minDepth(root.left), minDepth(root.right)) + 1
+        let left = root.left == nil ? Int.max : minDepth(root.left)
+        let right = root.right == nil ? Int.max : minDepth(root.right)
+
+        return min(left, right) + 1
     }
 }

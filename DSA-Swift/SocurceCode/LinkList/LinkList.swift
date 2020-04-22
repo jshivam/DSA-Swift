@@ -154,7 +154,7 @@ extension LinkList
         return count
     }
     
-    func reversed(){
+    func reverseRecursively(){
         head = reversed(head)
     }
 

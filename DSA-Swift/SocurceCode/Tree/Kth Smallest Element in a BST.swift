@@ -8,10 +8,8 @@
 
 import Foundation
 
-extension TreeNode
-{
+extension TreeNode {
     func kthSmallest(_ root: TreeNode?, _ k: Int) -> Int {
-        
         var result = 0
         var count = k
         kthSmallestUtil(root, &count, &result)

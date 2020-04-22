@@ -11,6 +11,5 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Minimum_Swaps_To_Sort_An_Array.init().excecute()
     }
 }

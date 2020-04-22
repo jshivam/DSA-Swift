@@ -30,7 +30,7 @@ Data Structures and Algorithms in Swift
 5. [Subsets](DSA-Swift/SocurceCode/Array/Subsets.swift)
 5. [Smallest positive integer value that cannot be represented as sum of any subset of a given array](DSA-Swift/SocurceCode/Array/Smallest%20positive%20integer%20value%20that%20cannot%20be%20represented%20as%20sum%20of%20any%20subset%20of%20a%20given%20array.swift)
 6. [Minimum Window Substring](DSA-Swift/SocurceCode/Array/Minimum%20Window%20Substring.swift)
-7. [Insert Delete GetRandom O(1)](DSA-Swift/SocurceCode/Array/Insert%20Delete%20GetRandom%20O(1).swift)
+7. [Insert Delete GetRandom in constant time](DSA-Swift/SocurceCode/Array/Insert%20Delete%20GetRandom%20O(1).swift)
 8. [Frequencies of array elements in range 1 to n](DSA-Swift/SocurceCode/Array/Frequencies%20of%20array%20elements%20in%20range%201%20to%20n.swift)
 9. [Delete Products](DSA-Swift/SocurceCode/Array/Delete%20Products.swift)
 10. [K-diff Pairs in an Array](DSA-Swift/SocurceCode/Array/K-diff%20Pairs%20in%20an%20Array.swift)
