@@ -68,6 +68,7 @@
 		A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC888243626F900FDBF18 /* Coin Change.swift */; };
 		A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */; };
 		A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */; };
+		A0F5ECC3245084DE0010EA05 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F5ECC2245084DE0010EA05 /* Two Sum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +135,7 @@
 		A0EAC888243626F900FDBF18 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
 		A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
 		A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Delete GetRandom.swift"; sourceTree = "<group>"; };
+		A0F5ECC2245084DE0010EA05 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 				A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */,
 				A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */,
 				A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */,
+				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
 				A070C35F2445D9120057E550 /* Sorter.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
+				A0F5ECC3245084DE0010EA05 /* Two Sum.swift in Sources */,
 				A07E15EE2435CCB000CC8702 /* Executable.swift in Sources */,
 				A07E15FD2435CCB000CC8702 /* Subsets.swift in Sources */,
 				A04E73212448E81D007CE243 /* Interleaving String.swift in Sources */,
