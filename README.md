@@ -1,6 +1,8 @@
 # DSA-Swift
 Data Structures and Algorithms in Swift 
 
+Note: Most of problems have been picked from leetcode.
+
 # Language 
 - Swift 5.0
 
@@ -28,7 +30,6 @@ Data Structures and Algorithms in Swift
 3. [Kth Largest Element](DSA-Swift/SocurceCode/Array/KthLargestElement.swift)
 4. [Subarray Sum Equals K](DSA-Swift/SocurceCode/Array/Subarray%20Sum%20Equals%20K.swift)
 5. [Subsets](DSA-Swift/SocurceCode/Array/Subsets.swift)
-5. [Smallest positive integer value that cannot be represented as sum of any subset of a given array](DSA-Swift/SocurceCode/Array/Smallest%20positive%20integer%20value%20that%20cannot%20be%20represented%20as%20sum%20of%20any%20subset%20of%20a%20given%20array.swift)
 6. [Minimum Window Substring](DSA-Swift/SocurceCode/Array/Minimum%20Window%20Substring.swift)
 7. [Sort Colors](DSA-Swift/SocurceCode/Array/Sort%20Colors.swift)
 8. [Frequencies of array elements in range 1 to n](DSA-Swift/SocurceCode/Array/Frequencies%20of%20array%20elements%20in%20range%201%20to%20n.swift)
@@ -43,11 +44,11 @@ Data Structures and Algorithms in Swift
 17. [Longest Consecutive Sequence](DSA-Swift/SocurceCode/Array/Longest%20Consecutive%20Sequence.swift)
 18. [Merge Intervals](DSA-Swift/SocurceCode/Array/Merge%20Intervals.swift)
 19. [Find Peak Element](DSA-Swift/SocurceCode/Array/Find%20Peak%20Element.swift)
+20. [SmallestPositiveInteger](DSA-Swift/SocurceCode/Array/SmallestPositiveInteger.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
 2. [Insert Delete GetRandom in O(1)](DSA-Swift/SocurceCode/Cache/Insert%20Delete%20GetRandom.swift)
-
 
 ## Dynamic Programming
 1. [Partition Equal Subset Sum](DSA-Swift/SocurceCode/DP/Partition%20Equal%20Subset%20Sum.swift)
