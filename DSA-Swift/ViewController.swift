@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Number_of_Islands.init().excecute()
+        Unique_Paths.init().excecute()
     }
 }

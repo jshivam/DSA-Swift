@@ -83,6 +83,7 @@ Note: Most of problems have been picked from leetcode.
 3. [Set Matrix Zeroes](DSA-Swift/SocurceCode/Matrix/Set%20Matrix%20Zeroes.swift)
 4. [Search a 2D Matrix II](DSA-Swift/SocurceCode/Matrix/Search%20a%202D%20Matrix%20II.swift)
 5. [Number of Islands](DSA-Swift/SocurceCode/Matrix/Number%20of%20Islands.swift)
+6. [Unique Paths](DSA-Swift/SocurceCode/Matrix/Unique%20Paths.swift)
 
 ## Queue
 1. [Queue](DSA-Swift/SocurceCode/Queue/Queue.swift)
