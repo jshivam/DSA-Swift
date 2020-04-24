@@ -61,6 +61,7 @@
 		A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */; };
 		A07E160C2435CE7500CC8702 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A07E160B2435CE7500CC8702 /* README.md */; };
 		A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */; };
+		A08BDB4624532A5400DE0D04 /* Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4524532A5400DE0D04 /* Number of Islands.swift */; };
 		A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3A2402446394E00B52B42 /* Permutations.swift */; };
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
 		A0C2828E2450B90F006649E2 /* Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */; };
@@ -141,6 +142,7 @@
 		A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Diagonal Traverse.swift"; sourceTree = "<group>"; };
 		A07E160B2435CE7500CC8702 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Sum Subsequence Non-Adjacent.swift"; sourceTree = "<group>"; };
+		A08BDB4524532A5400DE0D04 /* Number of Islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Islands.swift"; sourceTree = "<group>"; };
 		A0A3A2402446394E00B52B42 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
 		A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 			isa = PBXGroup;
 			children = (
 				A07E15EC2435CCB000CC8702 /* Diagonal Traverse.swift */,
+				A08BDB4524532A5400DE0D04 /* Number of Islands.swift */,
 				A0C282972450F5DD006649E2 /* Search a 2D Matrix II.swift */,
 				A0C282952450BC1D006649E2 /* Set Matrix Zeroes.swift */,
 				A0C2828F2450B997006649E2 /* Spiral Matrix.swift */,
@@ -494,6 +497,7 @@
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A0C282922450BA63006649E2 /* Merge Intervals.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,
+				A08BDB4624532A5400DE0D04 /* Number of Islands.swift in Sources */,
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
 				A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */,
 				A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */,
