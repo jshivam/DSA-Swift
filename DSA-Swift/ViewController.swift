@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Unique_Paths.init().excecute()
+        print(Tree.numTrees(19))
     }
 }

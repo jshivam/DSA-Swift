@@ -64,6 +64,7 @@
 		A08BDB4624532A5400DE0D04 /* Number of Islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4524532A5400DE0D04 /* Number of Islands.swift */; };
 		A08BDB48245337C300DE0D04 /* Unique Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB47245337C300DE0D04 /* Unique Paths.swift */; };
 		A08BDB4A24534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */; };
+		A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */; };
 		A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3A2402446394E00B52B42 /* Permutations.swift */; };
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
 		A0C2828E2450B90F006649E2 /* Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */; };
@@ -147,6 +148,7 @@
 		A08BDB4524532A5400DE0D04 /* Number of Islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number of Islands.swift"; sourceTree = "<group>"; };
 		A08BDB47245337C300DE0D04 /* Unique Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Paths.swift"; sourceTree = "<group>"; };
 		A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lowest Common Ancestor of a Binary Search Tree.swift"; sourceTree = "<group>"; };
+		A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Binary Search Trees.swift"; sourceTree = "<group>"; };
 		A0A3A2402446394E00B52B42 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
 		A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				A07E15CE2435CCB000CC8702 /* Tree.swift */,
 				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
 				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
+				A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 				A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */,
 				A0C282902450B997006649E2 /* Spiral Matrix.swift in Sources */,
 				A08BDB48245337C300DE0D04 /* Unique Paths.swift in Sources */,
+				A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
 				A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */,
