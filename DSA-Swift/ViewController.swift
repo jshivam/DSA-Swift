@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(Tree.numTrees(19))
+        Gas_Station.init().excecute()
     }
 }
