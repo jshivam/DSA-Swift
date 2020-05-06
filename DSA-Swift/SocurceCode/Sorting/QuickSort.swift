@@ -31,6 +31,11 @@ extension Sorter {
                 right -= 1
                 continue
             }
+
+            if array[left] == array[right] {
+                right -= 1
+            }
+
             array.swapAt(left, right)
         }
         return right
