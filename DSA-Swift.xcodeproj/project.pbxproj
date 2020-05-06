@@ -66,6 +66,7 @@
 		A08BDB4A24534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */; };
 		A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */; };
 		A08BDB4E2454650100DE0D04 /* Gas Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4D2454650100DE0D04 /* Gas Station.swift */; };
+		A08BDB502454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */; };
 		A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3A2402446394E00B52B42 /* Permutations.swift */; };
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
 		A0C2828E2450B90F006649E2 /* Longest Consecutive Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */; };
@@ -151,6 +152,7 @@
 		A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lowest Common Ancestor of a Binary Search Tree.swift"; sourceTree = "<group>"; };
 		A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Binary Search Trees.swift"; sourceTree = "<group>"; };
 		A08BDB4D2454650100DE0D04 /* Gas Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gas Station.swift"; sourceTree = "<group>"; };
+		A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
 		A0A3A2402446394E00B52B42 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
 		A0C2828D2450B90F006649E2 /* Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
 				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
 				A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */,
+				A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				A0C282942450BB5D006649E2 /* Longest Increasing Subsequence.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A0C282922450BA63006649E2 /* Merge Intervals.swift in Sources */,
+				A08BDB502454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A08BDB4624532A5400DE0D04 /* Number of Islands.swift in Sources */,
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
