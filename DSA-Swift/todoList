@@ -1,6 +1,5 @@
 1. "alien dictionary find order of characters"
-2. Construct Tree from given Inorder and Preorder traversals
-3. Boundary Traversal of binary tree
+2. Boundary Traversal of binary tree
 4. in binary tree print all nodes at distance k from given node
 5. Searching element in sorted linked list
 6. Square root of any number upto 2 precision (log(n)
