@@ -214,12 +214,12 @@
 		A00B7A702435CC6E00E8D351 /* DSA-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A062CAF82447693F00521419 /* todoList */,
 				A07E15C62435CCB000CC8702 /* SocurceCode */,
 				A07E15C52435CCB000CC8702 /* Executable.swift */,
 				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
 				A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */,
 				A00B7A752435CC6E00E8D351 /* ViewController.swift */,
-				A062CAF82447693F00521419 /* todoList */,
 				A00B7A772435CC6E00E8D351 /* Main.storyboard */,
 				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
 				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
@@ -262,12 +262,13 @@
 			isa = PBXGroup;
 			children = (
 				A06B2626243E08DB008BAAF6 /* Binary Tree Paths.swift */,
+				A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */,
 				A07E15C82435CCB000CC8702 /* Diameter of Binary Tree.swift */,
 				A07E15C92435CCB000CC8702 /* InvertBinaryTree.swift */,
 				A07E15CC2435CCB000CC8702 /* Kth Smallest Element in a BST.swift */,
 				A07E15CD2435CCB000CC8702 /* LCA of a Binary Tree.swift */,
-				A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */,
 				A07E15D12435CCB000CC8702 /* LevelOrderTraversal.swift */,
+				A08BDB4924534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift */,
 				A07E15CF2435CCB000CC8702 /* MaximumDepthofBinaryTree.swift */,
 				A07E15D22435CCB000CC8702 /* MaximumPathSum.swift */,
 				A07E15D02435CCB000CC8702 /* MinimunDepth.swift */,
@@ -275,10 +276,9 @@
 				A07E15D32435CCB000CC8702 /* Shortest distance between two nodes in BST.swift */,
 				A06B2624243DFC48008BAAF6 /* Sum Tree.swift */,
 				A07E15CE2435CCB000CC8702 /* Tree.swift */,
+				A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */,
 				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
 				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
-				A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */,
-				A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";

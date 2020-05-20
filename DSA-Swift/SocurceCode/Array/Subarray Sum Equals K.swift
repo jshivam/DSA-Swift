@@ -8,7 +8,14 @@
 //https://www.youtube.com/watch?v=AmlVSNBHzJg
 
 import UIKit
+/**
+ Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
+ Example 1:
+
+     Input:nums = [1,1,1], k = 2
+     Output: 2
+*/
 class SubarraySumEqualsK: Executable {
     func excecute() {
         print(subarraySum([10, 2, -2, -20, 10],  -10))
@@ -25,7 +32,7 @@ class SubarraySumEqualsK: Executable {
             if let count = hashMap[sum - k], count > 0 {
                 result += count
             }
-            hashMap[sum] = (hashMap[sum] ?? 0) + 1
+            hashMap[sum, default: 0] += 1
         }
 
         return result

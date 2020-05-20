@@ -13,8 +13,8 @@ import UIKit
 
  For example, given the array  we perform the following steps:
 
-         i   arr                     swap (indices)
-
+         i   [0, 1, 2, 3, 4, 5, 6]   swap (indices)
+        --------------------------------------------
          0   [7, 1, 3, 2, 4, 5, 6]   swap (0,3)
 
          1   [2, 1, 3, 7, 4, 5, 6]   swap (0,1)
@@ -32,7 +32,6 @@ class Minimum_Swaps_To_Sort_An_Array: Executable {
     func excecute() {
         print(minimumSwaps(arr: [4 ,3 ,1 ,2]))
     }
-
 
     func minimumSwaps(arr: [Int]) -> Int {
         var hashMap = [Int : Int]()

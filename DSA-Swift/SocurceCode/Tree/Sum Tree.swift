@@ -27,3 +27,4 @@ extension TreeNode {
         return root.val + sum(root.left) + sum(root.right)
     }
 }
+
