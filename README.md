@@ -26,6 +26,7 @@ Note: Most of problems have been picked from leetcode.
 15. [LCA of a BST](DSA-Swift/SocurceCode/Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.swift)
 16. [Unique Binary Search Trees](DSA-Swift/SocurceCode/Tree/Binary%20Search%20Trees.swift)
 17. [Convert Sorted Array to Binary Search Tree](DSA-Swift/SocurceCode/Tree/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.swift)
+18. [Construct Binary Tree from Preorder and Inorder Traversal](Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.swift)
 
 ## Array
 1. [Binary Search](DSA-Swift/SocurceCode/Array/BinarySearch.swift)

@@ -22,6 +22,7 @@
 		A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */; };
 		A04E73212448E81D007CE243 /* Interleaving String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E73202448E81D007CE243 /* Interleaving String.swift */; };
 		A05C7F43243A196000CB5854 /* House Robber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C7F42243A196000CB5854 /* House Robber.swift */; };
+		A05F44E024755DFB00975D3A /* Construct Binary Tree from Preorder and Inorder Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05F44DF24755DFB00975D3A /* Construct Binary Tree from Preorder and Inorder Traversal.swift */; };
 		A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */; };
 		A062CAF92447693F00521419 /* todoList in Resources */ = {isa = PBXBuildFile; fileRef = A062CAF82447693F00521419 /* todoList */; };
 		A06B2625243DFC48008BAAF6 /* Sum Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06B2624243DFC48008BAAF6 /* Sum Tree.swift */; };
@@ -108,6 +109,7 @@
 		A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Swaps To Sort An Array.swift"; sourceTree = "<group>"; };
 		A04E73202448E81D007CE243 /* Interleaving String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interleaving String.swift"; sourceTree = "<group>"; };
 		A05C7F42243A196000CB5854 /* House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "House Robber.swift"; sourceTree = "<group>"; };
+		A05F44DF24755DFB00975D3A /* Construct Binary Tree from Preorder and Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Construct Binary Tree from Preorder and Inorder Traversal.swift"; sourceTree = "<group>"; };
 		A05FADCD244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Frequencies of array elements in range 1 to n.swift"; sourceTree = "<group>"; };
 		A062CAF82447693F00521419 /* todoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = todoList; sourceTree = "<group>"; };
 		A06B2624243DFC48008BAAF6 /* Sum Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Tree.swift"; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */,
 				A07E15CB2435CCB000CC8702 /* Validate Binary Search Tree.swift */,
 				A07E15CA2435CCB000CC8702 /* VerticalOrderTraversal.swift */,
+				A05F44DF24755DFB00975D3A /* Construct Binary Tree from Preorder and Inorder Traversal.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				A07E15FA2435CCB000CC8702 /* Shortest distance between two nodes in BST.swift in Sources */,
 				A0C282962450BC1D006649E2 /* Set Matrix Zeroes.swift in Sources */,
 				A05C7F43243A196000CB5854 /* House Robber.swift in Sources */,
+				A05F44E024755DFB00975D3A /* Construct Binary Tree from Preorder and Inorder Traversal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
