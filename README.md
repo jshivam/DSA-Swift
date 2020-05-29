@@ -51,6 +51,7 @@ Note: Most of problems have been picked from leetcode.
 19. [Find Peak Element](DSA-Swift/SocurceCode/Array/Find%20Peak%20Element.swift)
 20. [SmallestPositiveInteger](DSA-Swift/SocurceCode/Array/SmallestPositiveInteger.swift)
 21. [Gas Station](DSA-Swift/SocurceCode/Array/Gas%20Station.swift)
+22. [3Sum Smaller](DSA-Swift/SocurceCode/Array/3Sum%20Smaller.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)

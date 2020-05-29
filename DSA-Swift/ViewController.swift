@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Gas_Station.init().excecute()
+        Three_Sum_Smaller.init().excecute()
     }
 }
