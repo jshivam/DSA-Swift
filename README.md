@@ -52,6 +52,7 @@ Note: Most of problems have been picked from leetcode.
 20. [SmallestPositiveInteger](DSA-Swift/SocurceCode/Array/SmallestPositiveInteger.swift)
 21. [Gas Station](DSA-Swift/SocurceCode/Array/Gas%20Station.swift)
 22. [3Sum Smaller](DSA-Swift/SocurceCode/Array/3Sum%20Smaller.swift)
+23. [Minimum Remove to Make Valid Parentheses](DSA-Swift/SocurceCode/Array/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
@@ -66,6 +67,7 @@ Note: Most of problems have been picked from leetcode.
 6. [House Robber](DSA-Swift/SocurceCode/DP/House%20Robber.swift)
 7. [Edit Distance](DSA-Swift/SocurceCode/DP/Edit%20Distance.swift)
 8. [Longest Increasing Subsequence](DSA-Swift/SocurceCode/DP/Longest%20Increasing%20Subsequence.swift)
+9. [Longest Common Subsequence](DSA-Swift/SocurceCode/DP/Longest%20Common%20Subsequence.swift)
 
 ## Graph
 1. [WordLadder](DSA-Swift/SocurceCode/Graph/WordLadder.swift)

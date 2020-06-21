@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Three_Sum_Smaller.init().excecute()
+        Minimum_Remove_to_Make_Valid_Parentheses.init().excecute()
     }
 }

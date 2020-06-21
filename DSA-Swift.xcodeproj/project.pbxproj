@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
 		A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A712435CC6E00E8D351 /* AppDelegate.swift */; };
@@ -17,9 +18,11 @@
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
 		A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */; };
 		A0315A1D247F7C53003336D5 /* Palindrome Partitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0315A1C247F7C53003336D5 /* Palindrome Partitioning.swift */; };
+		A03C44382483A6C200815E11 /* Longest Common Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C44372483A6C200815E11 /* Longest Common Subsequence.swift */; };
 		A041D196244733020063BB30 /* Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041D195244733020063BB30 /* Edit Distance.swift */; };
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
 		A04D76A42480EE4700C50ED3 /* 3Sum Smaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D76A32480EE4700C50ED3 /* 3Sum Smaller.swift */; };
+		A04D76A6248101B500C50ED3 /* Contiguous Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04D76A5248101B500C50ED3 /* Contiguous Array.swift */; };
 		A04E731D244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */; };
 		A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */; };
 		A04E73212448E81D007CE243 /* Interleaving String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04E73202448E81D007CE243 /* Interleaving String.swift */; };
@@ -95,6 +98,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		A00B7A6E2435CC6E00E8D351 /* DSA-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSA-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,9 +111,11 @@
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K-diff Pairs in an Array.swift"; sourceTree = "<group>"; };
 		A0315A1C247F7C53003336D5 /* Palindrome Partitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Partitioning.swift"; sourceTree = "<group>"; };
+		A03C44372483A6C200815E11 /* Longest Common Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Subsequence.swift"; sourceTree = "<group>"; };
 		A041D195244733020063BB30 /* Edit Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Distance.swift"; sourceTree = "<group>"; };
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
 		A04D76A32480EE4700C50ED3 /* 3Sum Smaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3Sum Smaller.swift"; sourceTree = "<group>"; };
+		A04D76A5248101B500C50ED3 /* Contiguous Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contiguous Array.swift"; sourceTree = "<group>"; };
 		A04E731C244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Product Sum Among All Rotations.swift"; sourceTree = "<group>"; };
 		A04E731E2448B404007CE243 /* Minimum Swaps To Sort An Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Swaps To Sort An Array.swift"; sourceTree = "<group>"; };
 		A04E73202448E81D007CE243 /* Interleaving String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interleaving String.swift"; sourceTree = "<group>"; };
@@ -222,7 +228,6 @@
 		A00B7A702435CC6E00E8D351 /* DSA-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				A062CAF82447693F00521419 /* todoList */,
 				A07E15C62435CCB000CC8702 /* SocurceCode */,
 				A07E15C52435CCB000CC8702 /* Executable.swift */,
 				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
@@ -233,6 +238,7 @@
 				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
 				A00B7A7F2435CC7100E8D351 /* Info.plist */,
 				A07E160B2435CE7500CC8702 /* README.md */,
+				A062CAF82447693F00521419 /* todoList */,
 			);
 			path = "DSA-Swift";
 			sourceTree = "<group>";
@@ -327,6 +333,8 @@
 				A0F5ECC2245084DE0010EA05 /* Two Sum.swift */,
 				A08BDB4D2454650100DE0D04 /* Gas Station.swift */,
 				A04D76A32480EE4700C50ED3 /* 3Sum Smaller.swift */,
+				A04D76A5248101B500C50ED3 /* Contiguous Array.swift */,
+				A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -380,6 +388,7 @@
 				A0C282932450BB5D006649E2 /* Longest Increasing Subsequence.swift */,
 				A07E160D2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift */,
 				A07E15E82435CCB000CC8702 /* Partition Equal Subset Sum.swift */,
+				A03C44372483A6C200815E11 /* Longest Common Subsequence.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -525,6 +534,7 @@
 				A0C282942450BB5D006649E2 /* Longest Increasing Subsequence.swift in Sources */,
 				A07E15FB2435CCB000CC8702 /* LRUCache.swift in Sources */,
 				A0C282922450BA63006649E2 /* Merge Intervals.swift in Sources */,
+				A03C44382483A6C200815E11 /* Longest Common Subsequence.swift in Sources */,
 				A08BDB502454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift in Sources */,
 				A0C830A624387FE7001E0D35 /* Best Time to Buy and Sell Stock.swift in Sources */,
 				A08BDB4624532A5400DE0D04 /* Number of Islands.swift in Sources */,
@@ -568,7 +578,9 @@
 				A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */,
 				A0C282982450F5DD006649E2 /* Search a 2D Matrix II.swift in Sources */,
 				A07E16062435CCB000CC8702 /* QuickSort.swift in Sources */,
+				A04D76A6248101B500C50ED3 /* Contiguous Array.swift in Sources */,
 				A07E15F32435CCB000CC8702 /* Kth Smallest Element in a BST.swift in Sources */,
+				A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */,
 				A0F5ECCA24508AAC0010EA05 /* Generate Parentheses.swift in Sources */,
 				A07E15F42435CCB000CC8702 /* LCA of a Binary Tree.swift in Sources */,
 				A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */,
