@@ -86,6 +86,7 @@ Note: Most of problems have been picked from leetcode.
 2. [Palindrome Number](DSA-Swift/SocurceCode/Math/Palindrome%20Number.swift)
 3. [Power](DSA-Swift/SocurceCode/Math/Power.swift)
 4. [Valid Number](DSA-Swift/SocurceCode/Math/Valid%20Number.swift)
+5. [Square Root of Number](DSA-Swift/SocurceCode/Math/Square%20Root%20of%20Number.swift)
 
 ## Matrix
 1. [Diagonal Traverse](DSA-Swift/SocurceCode/Matrix/Diagonal%20Traverse.swift)

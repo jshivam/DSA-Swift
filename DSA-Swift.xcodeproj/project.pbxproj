@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
@@ -101,6 +102,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Square Root of Number.swift"; sourceTree = "<group>"; };
 		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -361,6 +363,7 @@
 				A07E15E02435CCB000CC8702 /* Palindrome Number.swift */,
 				A07E15DF2435CCB000CC8702 /* Power.swift */,
 				A07E15E22435CCB000CC8702 /* Valid Number.swift */,
+				4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				A06B2629243E42DE008BAAF6 /* Recover Binary Search Tree.swift in Sources */,
 				A0C282902450B997006649E2 /* Spiral Matrix.swift in Sources */,
 				A08BDB48245337C300DE0D04 /* Unique Paths.swift in Sources */,
+				4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */,
 				A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
