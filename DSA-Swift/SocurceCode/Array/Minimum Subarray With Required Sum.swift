@@ -40,7 +40,6 @@ class Minimum_Subarray_With_Required_Sum: Executable {
         guard !nums.isEmpty else { return 0 }
         
         var leftPointer = 0
-        var rightPointer = 0
         var sum = 0
         var length = Int.max
         

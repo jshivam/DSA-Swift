@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Minimum_Subarray_With_Required_Sum.init().excecute()
+        Longest_Substring_Of_All_Vowels_in_Order.init().excecute()
     }
 }

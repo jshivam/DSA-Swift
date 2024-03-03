@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */; };
 		4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */; };
+		4F36AAB52B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
@@ -105,6 +106,7 @@
 /* Begin PBXFileReference section */
 		4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Square Root of Number.swift"; sourceTree = "<group>"; };
 		4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Subarray With Required Sum.swift"; sourceTree = "<group>"; };
+		4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Of All Vowels in Order.swift"; sourceTree = "<group>"; };
 		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -347,6 +349,7 @@
 				A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */,
 				A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */,
 				4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */,
+				4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				A07E15F32435CCB000CC8702 /* Kth Smallest Element in a BST.swift in Sources */,
 				A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */,
 				A0F5ECCA24508AAC0010EA05 /* Generate Parentheses.swift in Sources */,
+				4F36AAB52B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift in Sources */,
 				A07E15F42435CCB000CC8702 /* LCA of a Binary Tree.swift in Sources */,
 				A07E160A2435CCB000CC8702 /* Diagonal Traverse.swift in Sources */,
 				A07E15EF2435CCB000CC8702 /* Diameter of Binary Tree.swift in Sources */,
