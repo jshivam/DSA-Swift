@@ -11,6 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        Longest_Substring_Of_All_Vowels_in_Order.init().excecute()
+        Is_Subsequence.init().excecute()
     }
 }

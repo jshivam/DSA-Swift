@@ -14,7 +14,7 @@ class Longest_Substring_Of_All_Vowels_in_Order: Executable {
     }
     
     func longestBeautifulSubstring(_ word: String) -> Int {
-        var vovel = ["a", "e", "i", "o", "u"]
+        let vovel = ["a", "e", "i", "o", "u"]
             
         var startIndex = 0
         var vovelIndex = 0

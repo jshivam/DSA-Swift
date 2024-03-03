@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */; };
 		4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */; };
 		4F36AAB52B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */; };
+		4F36AAB72B94F49800BE2AAC /* Is Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
@@ -107,6 +108,7 @@
 		4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Square Root of Number.swift"; sourceTree = "<group>"; };
 		4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Subarray With Required Sum.swift"; sourceTree = "<group>"; };
 		4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Of All Vowels in Order.swift"; sourceTree = "<group>"; };
+		4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Is Subsequence.swift"; sourceTree = "<group>"; };
 		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */,
 				4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */,
 				4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */,
+				4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -477,8 +480,9 @@
 		A00B7A662435CC6E00E8D351 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Shivam Jaiswal";
 				TargetAttributes = {
 					A00B7A6D2435CC6E00E8D351 = {
@@ -550,6 +554,7 @@
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
 				A0F5ECC82450891C0010EA05 /* Valid Parentheses.swift in Sources */,
+				4F36AAB72B94F49800BE2AAC /* Is Subsequence.swift in Sources */,
 				A041D196244733020063BB30 /* Edit Distance.swift in Sources */,
 				A07E15FC2435CCB000CC8702 /* KthLargestElement.swift in Sources */,
 				A0C282942450BB5D006649E2 /* Longest Increasing Subsequence.swift in Sources */,
@@ -664,6 +669,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -674,6 +680,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -724,6 +731,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -734,6 +742,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
