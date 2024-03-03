@@ -55,6 +55,8 @@ Note: Most of problems have been picked from leetcode.
 23. [Minimum Remove to Make Valid Parentheses](DSA-Swift/SocurceCode/Array/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.swift)
 24. [Search in Rotated Sorted Array](DSA-Swift/SocurceCode/Array/Search%20in%20Rotated%20Sorted%20Array.swift)
 25. [Minimum Subarray With Required Sum](DSA-Swift/SocurceCode/Array/Minimum%20Subarray%20With%20Required%20Sum.swift)
+26. [Longest Substring Of All Vowels in Order](DSA-Swift/SocurceCode/Array/Longest%20Substring%20Of%20All%20Vowels%20in%20Order.swift)
+
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
