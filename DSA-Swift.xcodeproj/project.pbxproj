@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */; };
+		4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
@@ -103,6 +104,7 @@
 
 /* Begin PBXFileReference section */
 		4F36AAB02B91D1FD00BE2AAC /* Square Root of Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Square Root of Number.swift"; sourceTree = "<group>"; };
+		4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Subarray With Required Sum.swift"; sourceTree = "<group>"; };
 		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 				A04D76A5248101B500C50ED3 /* Contiguous Array.swift */,
 				A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */,
 				A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */,
+				4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 			files = (
 				A07E16082435CCB000CC8702 /* Partition Equal Subset Sum.swift in Sources */,
 				A06B262E243F829B008BAAF6 /* Heap.swift in Sources */,
+				4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */,
 				A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */,
 				A0F5ECC5245085F40010EA05 /* Longest Common Prefix.swift in Sources */,
 				A07E16032435CCB000CC8702 /* Palindrome Number.swift in Sources */,

@@ -54,6 +54,7 @@ Note: Most of problems have been picked from leetcode.
 22. [3Sum Smaller](DSA-Swift/SocurceCode/Array/3Sum%20Smaller.swift)
 23. [Minimum Remove to Make Valid Parentheses](DSA-Swift/SocurceCode/Array/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.swift)
 24. [Search in Rotated Sorted Array](DSA-Swift/SocurceCode/Array/Search%20in%20Rotated%20Sorted%20Array.swift)
+25. [Minimum Subarray With Required Sum](DSA-Swift/SocurceCode/Array/Minimum%20Subarray%20With%20Required%20Sum.swift)
 
 ## Cache
 1. [LRUCache](DSA-Swift/SocurceCode/Cache/LRUCache.swift)
