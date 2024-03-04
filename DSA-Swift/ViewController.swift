@@ -12,5 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Is_Subsequence.init().excecute()
+        Heap.init().buildMaxHeap()
     }
 }
