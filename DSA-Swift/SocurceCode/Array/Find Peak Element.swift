@@ -39,22 +39,25 @@ class Find_Peak_Element: Executable {
 
     func findPeakElement(_ nums: [Int]) -> Int {
 
-        var arra = nums
-        arra.insert(Int.min, at: 0)
-        arra.append(Int.min)
+         var leftIndex = 0
+         var rightIndex = nums.endIndex - 1
+         
+         while leftIndex < rightIndex {
+             let midIndex = (leftIndex + rightIndex) / 2
 
-        var index = 1
-        let range = 1..<(arra.count-1)
-        while range.contains(index) {
-            let prev = arra[index - 1]
-            let next = arra[index + 1]
-            let current = arra[index]
-            if ((prev < current) && (current > next)) {
-                return index - 1
-            }
-            index += 1
-        }
+             let isGreaterThanPrev = midIndex == 0 ? true :  nums[midIndex] > nums[midIndex - 1]
 
-        return index - 1
-    }
+             if ((isGreaterThanPrev) && (nums[midIndex] > nums[midIndex + 1]))  {
+                 return midIndex
+             }
+             else if nums[midIndex] < nums[midIndex + 1] {
+                 leftIndex = midIndex + 1
+             }
+             else {
+                 rightIndex = midIndex - 1
+             }
+         }
+        
+         return leftIndex
+     }
 }

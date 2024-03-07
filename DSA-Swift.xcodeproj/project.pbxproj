@@ -11,11 +11,11 @@
 		4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */; };
 		4F36AAB52B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */; };
 		4F36AAB72B94F49800BE2AAC /* Is Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */; };
+		4FA7C0082B984CFB004ECDE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
 		A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A712435CC6E00E8D351 /* AppDelegate.swift */; };
-		A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
 		A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A752435CC6E00E8D351 /* ViewController.swift */; };
 		A00B7A792435CC6E00E8D351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A772435CC6E00E8D351 /* Main.storyboard */; };
 		A00B7A7B2435CC7100E8D351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7A2435CC7100E8D351 /* Assets.xcassets */; };
@@ -215,6 +215,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA7C0092B984D1F004ECDE5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A00B7A772435CC6E00E8D351 /* Main.storyboard */,
+				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
+				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
+				A07E15C52435CCB000CC8702 /* Executable.swift */,
+				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
+				A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		A00107D0244491F3000030EA /* Tri */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,14 +255,9 @@
 		A00B7A702435CC6E00E8D351 /* DSA-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4FA7C0092B984D1F004ECDE5 /* AppDelegate */,
 				A07E15C62435CCB000CC8702 /* SocurceCode */,
-				A07E15C52435CCB000CC8702 /* Executable.swift */,
-				A00B7A712435CC6E00E8D351 /* AppDelegate.swift */,
-				A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */,
 				A00B7A752435CC6E00E8D351 /* ViewController.swift */,
-				A00B7A772435CC6E00E8D351 /* Main.storyboard */,
-				A00B7A7A2435CC7100E8D351 /* Assets.xcassets */,
-				A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */,
 				A00B7A7F2435CC7100E8D351 /* Info.plist */,
 				A07E160B2435CE7500CC8702 /* README.md */,
 				A062CAF82447693F00521419 /* todoList */,
@@ -574,7 +582,6 @@
 				A07E15F22435CCB000CC8702 /* Validate Binary Search Tree.swift in Sources */,
 				A0C2829A2450F6C5006649E2 /* Find Peak Element.swift in Sources */,
 				A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */,
-				A00B7A742435CC6E00E8D351 /* SceneDelegate.swift in Sources */,
 				A0C2829C2450F7B6006649E2 /* Sort Colors.swift in Sources */,
 				A07E15F12435CCB000CC8702 /* VerticalOrderTraversal.swift in Sources */,
 				A07E15FF2435CCB000CC8702 /* BinarySearch.swift in Sources */,
@@ -594,6 +601,7 @@
 				A08BDB48245337C300DE0D04 /* Unique Paths.swift in Sources */,
 				4F36AAB12B91D1FD00BE2AAC /* Square Root of Number.swift in Sources */,
 				A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */,
+				4FA7C0082B984CFB004ECDE5 /* SceneDelegate.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
 				A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */,

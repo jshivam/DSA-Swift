@@ -22,6 +22,8 @@ import UIKit
      Output : 3
      Remove 2 and 4 completely. So, remaining ids are 1, 3 and 5 i.e. 3
 
+ ref: https://www.geeksforgeeks.org/minimum-number-of-distinct-elements-after-removing-m-items/
+ 
 */
 
 class Delete_Products: Executable {
