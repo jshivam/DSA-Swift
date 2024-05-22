@@ -30,6 +30,10 @@ class Tri<Item: Sequence> where Item.Element: Hashable{
     func search(_ item: Item) -> Int {
         return navigateTillEnd(item)?.count ?? 0
     }
+    
+    func startsWith(_ prefix: Item) -> Bool {
+        return navigateTillEnd(prefix) != nil
+    }
 
     /// TODO:
     func delete(_ item: Item) -> Bool {

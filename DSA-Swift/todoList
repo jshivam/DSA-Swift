@@ -5,3 +5,13 @@
 7. Design, develop and implement an elevator problem
 8. Printing tree in zig zag format
 
+/*
+ * Complete the 'getAuthorHistory' function below.
+ *
+ * The function is expected to return a STRING_ARRAY.
+ * The function accepts STRING author as parameter.
+ * Base urls:
+ *   https://jsonmock.hackerrank.com/api/article_users?username=
+ *   https://jsonmock.hackerrank.com/api/articles?author=
+ *
+ */

@@ -10,7 +10,7 @@ import UIKit
 
 class Permutations: Executable {
     func excecute() {
-        permute([1, 2, 3]).forEach({ print($0) })
+        permute2([1, 2, 3, 4]).forEach({ print($0) })
     }
 
     func permute<T>(_ nums: [T]) -> [[T]] {
@@ -28,5 +28,31 @@ class Permutations: Executable {
         var nums = nums
         permuteUtil(&nums, nums.count - 1)
         return result
+    }
+    
+    func permute2(_ nums: [Int]) -> [[Int]] {
+        
+        var permuteResult = [[Int]]()
+        var numbers = nums
+        
+        if numbers.count <= 1 {
+            permuteResult.append(numbers)
+            return permuteResult
+        }
+        else {
+            var res = [[Int]]()
+            for index in 0..<numbers.count {
+                let value = numbers[index]
+                numbers.swapAt(0, index)
+                let subarray = Array(numbers[1..<numbers.count])
+                numbers.swapAt(0, index)
+                let temp = permute2(subarray)
+                for var item in temp {
+                    item.append(value)
+                    res.append(item)
+                }
+            }
+            return res
+        }
     }
 }

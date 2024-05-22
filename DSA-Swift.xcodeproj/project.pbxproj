@@ -11,7 +11,11 @@
 		4F36AAB32B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */; };
 		4F36AAB52B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */; };
 		4F36AAB72B94F49800BE2AAC /* Is Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */; };
+		4F3D2B772BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D2B762BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift */; };
 		4FA7C0082B984CFB004ECDE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B7A732435CC6E00E8D351 /* SceneDelegate.swift */; };
+		4FE398712BF72E130047C01A /* LFUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE398702BF72E130047C01A /* LFUCache.swift */; };
+		4FE398742BF744530047C01A /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE398732BF744530047C01A /* TicTacToe.swift */; };
+		4FE398762BF770DE0047C01A /* MyHashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE398752BF770DE0047C01A /* MyHashMap.swift */; };
 		A0004F272489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */; };
 		A00107D224449214000030EA /* Tri.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D124449214000030EA /* Tri.swift */; };
 		A00107D42444B6BF000030EA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00107D32444B6BF000030EA /* MergeSort.swift */; };
@@ -109,6 +113,10 @@
 		4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Subarray With Required Sum.swift"; sourceTree = "<group>"; };
 		4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Substring Of All Vowels in Order.swift"; sourceTree = "<group>"; };
 		4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Is Subsequence.swift"; sourceTree = "<group>"; };
+		4F3D2B762BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find the Index of the First Occurrence in a String.swift"; sourceTree = "<group>"; };
+		4FE398702BF72E130047C01A /* LFUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFUCache.swift; sourceTree = "<group>"; };
+		4FE398732BF744530047C01A /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
+		4FE398752BF770DE0047C01A /* MyHashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHashMap.swift; sourceTree = "<group>"; };
 		A0004F262489E6DA00CAEAA0 /* Minimum Remove to Make Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Remove to Make Valid Parentheses.swift"; sourceTree = "<group>"; };
 		A00107D124449214000030EA /* Tri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri.swift; sourceTree = "<group>"; };
 		A00107D32444B6BF000030EA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -228,6 +236,14 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
+		4FE398722BF744360047C01A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4FE398732BF744530047C01A /* TicTacToe.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		A00107D0244491F3000030EA /* Tri */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +296,7 @@
 				A0A3A23F2446393100B52B42 /* Backtracking */,
 				A07E15D42435CCB000CC8702 /* Cache */,
 				A07E15E72435CCB000CC8702 /* DP */,
+				4FE398722BF744360047C01A /* Game */,
 				A07E15DC2435CCB000CC8702 /* Graph */,
 				A06B262C243F8273008BAAF6 /* Heap */,
 				A07E15E92435CCB000CC8702 /* LinkList */,
@@ -326,6 +343,8 @@
 			children = (
 				A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */,
 				A07E15D52435CCB000CC8702 /* LRUCache.swift */,
+				4FE398702BF72E130047C01A /* LFUCache.swift */,
+				4FE398752BF770DE0047C01A /* MyHashMap.swift */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -361,6 +380,7 @@
 				4F36AAB22B93B40B00BE2AAC /* Minimum Subarray With Required Sum.swift */,
 				4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */,
 				4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */,
+				4F3D2B762BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -558,6 +578,7 @@
 				A0732416249F47CD009963E4 /* Longest Palindromic Substring.swift in Sources */,
 				A04E731D244879FB007CE243 /* Maximum Product Sum Among All Rotations.swift in Sources */,
 				A00B7A722435CC6E00E8D351 /* AppDelegate.swift in Sources */,
+				4FE398742BF744530047C01A /* TicTacToe.swift in Sources */,
 				A09AA75224FBB6DD0039244A /* Search in Rotated Sorted Array.swift in Sources */,
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
@@ -584,6 +605,7 @@
 				A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */,
 				A0C2829C2450F7B6006649E2 /* Sort Colors.swift in Sources */,
 				A07E15F12435CCB000CC8702 /* VerticalOrderTraversal.swift in Sources */,
+				4F3D2B772BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift in Sources */,
 				A07E15FF2435CCB000CC8702 /* BinarySearch.swift in Sources */,
 				A08BDB4A24534ED400DE0D04 /* Lowest Common Ancestor of a Binary Search Tree.swift in Sources */,
 				A07E16072435CCB000CC8702 /* Queue.swift in Sources */,
@@ -603,10 +625,12 @@
 				A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */,
 				4FA7C0082B984CFB004ECDE5 /* SceneDelegate.swift in Sources */,
 				A07E16092435CCB000CC8702 /* LinkList.swift in Sources */,
+				4FE398712BF72E130047C01A /* LFUCache.swift in Sources */,
 				A07E15F52435CCB000CC8702 /* Tree.swift in Sources */,
 				A04E731F2448B404007CE243 /* Minimum Swaps To Sort An Array.swift in Sources */,
 				A07E15F02435CCB000CC8702 /* InvertBinaryTree.swift in Sources */,
 				A07E16022435CCB000CC8702 /* Power.swift in Sources */,
+				4FE398762BF770DE0047C01A /* MyHashMap.swift in Sources */,
 				A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */,
 				A08BDB4E2454650100DE0D04 /* Gas Station.swift in Sources */,
 				A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */,

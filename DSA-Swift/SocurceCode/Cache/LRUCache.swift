@@ -4,7 +4,6 @@
 //
 //  Created by Shivam Jaiswal on 28/03/20.
 //  Copyright © 2020 Shivam Jaiswal. All rights reserved.
-///Users/shivamjaiswal/Development/DSA-Swift/DSA/SocurceCode/Cache/LRUCache.swift
 
 /*
  5, 1, 2, 3, 4, 5
@@ -44,6 +43,23 @@ class LRUCache<Key: Hashable> {
         list.delete(node)
         hashMap[key] = list.append(node.value, for: key)
         return node.value
+    }
+    
+    func delete(key: Key) {
+        guard let node = hashMap[key] else { return }
+        list.delete(node)
+        hashMap[key] = nil
+        size -= 1
+    }
+    
+    func dropLRUCache() -> Key? {
+        guard let key = list.head?.key else { return nil }
+        delete(key: key)
+        return key
+    }
+    
+    var isEmpty: Bool {
+        return hashMap.isEmpty
     }
 }
 
