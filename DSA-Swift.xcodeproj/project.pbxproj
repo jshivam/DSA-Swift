@@ -86,6 +86,7 @@
 		A08BDB502454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */; };
 		A093D97F2DFD9C7700886D6E /* Minimum Number of Arrows to Burst Balloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D97E2DFD9C7500886D6E /* Minimum Number of Arrows to Burst Balloons.swift */; };
 		A093D9812DFDA6FC00886D6E /* SimplifyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D9802DFDA6FC00886D6E /* SimplifyPath.swift */; };
+		A093D9832DFDAE6300886D6E /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D9822DFDAE6300886D6E /* EvaluateReversePolishNotation.swift */; };
 		A09AA75224FBB6DD0039244A /* Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */; };
 		A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3A2402446394E00B52B42 /* Permutations.swift */; };
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
@@ -192,6 +193,7 @@
 		A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
 		A093D97E2DFD9C7500886D6E /* Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
 		A093D9802DFDA6FC00886D6E /* SimplifyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
+		A093D9822DFDAE6300886D6E /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
 		A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		A0A3A2402446394E00B52B42 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
@@ -484,6 +486,7 @@
 			children = (
 				A0F5ECC72450891C0010EA05 /* Valid Parentheses.swift */,
 				A093D9802DFDA6FC00886D6E /* SimplifyPath.swift */,
+				A093D9822DFDAE6300886D6E /* EvaluateReversePolishNotation.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				A05FADCE244258DC00A244B2 /* Frequencies of array elements in range 1 to n.swift in Sources */,
 				A07E15F62435CCB000CC8702 /* MaximumDepthofBinaryTree.swift in Sources */,
 				A0C830A82438A3DB001E0D35 /* SmallestPositiveInteger.swift in Sources */,
+				A093D9832DFDAE6300886D6E /* EvaluateReversePolishNotation.swift in Sources */,
 				A00107D42444B6BF000030EA /* MergeSort.swift in Sources */,
 				A0C2828E2450B90F006649E2 /* Longest Consecutive Sequence.swift in Sources */,
 				A07E15F72435CCB000CC8702 /* MinimunDepth.swift in Sources */,

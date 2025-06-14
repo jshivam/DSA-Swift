@@ -105,6 +105,7 @@ Note: Most of problems have been picked from leetcode.
 ## Stack
 1. [Valid Parentheses](DSA-Swift/SocurceCode/Stack/Valid%20Parentheses.swift)
 2. [Simplify Path](DSA-Swift/SocurceCode/Stack/SimplifyPath.swift)
+3. [Evaluate Reverse Polish Notation](DSA-Swift/SocurceCode/Stack/EvaluateReversePolishNotation.swift)
 
 ## Sorting
 1. [QuickSort](DSA-Swift/SocurceCode/Sorting/QuickSort.swift)
