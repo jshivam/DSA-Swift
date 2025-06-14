@@ -11,14 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let c = Codec()
-        
-        print(c.encode("https://chatgpt.com/c/81aa3930-9112-4d93-af04-977335da1204"))
-        print(c.encode("https://chatgpt.com/c/81aa3930-9112-4d93-af04-977335da1203"))
-        print(c.encode("https://chatgpt.com/c/81aa3930-9112-4d93-af04-977335da1201"))
-        print(c.encode("https://chatgpt.com/c/81aa3930-9112-4d93-af04-977335da1200"))
-        
-        
+        MinimumNumberofArrowstoBurstBalloons().excecute()
     }
 }
 

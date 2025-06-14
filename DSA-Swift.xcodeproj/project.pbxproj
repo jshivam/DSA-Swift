@@ -84,6 +84,7 @@
 		A08BDB4C24535E1C00DE0D04 /* Unique Binary Search Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */; };
 		A08BDB4E2454650100DE0D04 /* Gas Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4D2454650100DE0D04 /* Gas Station.swift */; };
 		A08BDB502454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */; };
+		A093D97F2DFD9C7700886D6E /* Minimum Number of Arrows to Burst Balloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A093D97E2DFD9C7500886D6E /* Minimum Number of Arrows to Burst Balloons.swift */; };
 		A09AA75224FBB6DD0039244A /* Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */; };
 		A0A3A2412446394E00B52B42 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3A2402446394E00B52B42 /* Permutations.swift */; };
 		A0BD64412443604000C7A613 /* Delete Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD64402443604000C7A613 /* Delete Products.swift */; };
@@ -188,6 +189,7 @@
 		A08BDB4B24535E1C00DE0D04 /* Unique Binary Search Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Unique Binary Search Trees.swift"; sourceTree = "<group>"; };
 		A08BDB4D2454650100DE0D04 /* Gas Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gas Station.swift"; sourceTree = "<group>"; };
 		A08BDB4F2454986100DE0D04 /* Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
+		A093D97E2DFD9C7500886D6E /* Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
 		A09AA75124FBB6DD0039244A /* Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		A0A3A2402446394E00B52B42 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		A0BD64402443604000C7A613 /* Delete Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Products.swift"; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 				4F36AAB42B94C7DF00BE2AAC /* Longest Substring Of All Vowels in Order.swift */,
 				4F36AAB62B94F49800BE2AAC /* Is Subsequence.swift */,
 				4F3D2B762BB3E0B500909290 /* Find the Index of the First Occurrence in a String.swift */,
+				A093D97E2DFD9C7500886D6E /* Minimum Number of Arrows to Burst Balloons.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				A09AA75224FBB6DD0039244A /* Search in Rotated Sorted Array.swift in Sources */,
 				A07E16012435CCB000CC8702 /* WordLadder.swift in Sources */,
 				A07E16052435CCB000CC8702 /* Valid Number.swift in Sources */,
+				A093D97F2DFD9C7700886D6E /* Minimum Number of Arrows to Burst Balloons.swift in Sources */,
 				A0F5ECC82450891C0010EA05 /* Valid Parentheses.swift in Sources */,
 				4F36AAB72B94F49800BE2AAC /* Is Subsequence.swift in Sources */,
 				A041D196244733020063BB30 /* Edit Distance.swift in Sources */,
