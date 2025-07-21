@@ -11,37 +11,20 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(Solution.init().snakesAndLadders(
-            [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
-        ))
-    }
-}
+        let maxHeap = Heap<Int>(ordering: .max)
+        maxHeap.insert(20)
+        maxHeap.insert(18)
+        maxHeap.insert(17)
+        maxHeap.insert(15)
+        maxHeap.insert(14)
+        
+        maxHeap.insert(21)
+        maxHeap.insert(15)
 
-class Codec {
-    let chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    var map = [String: String]()
-    var count = 100
+        print(maxHeap.items)
+        
+        maxHeap.delete()
 
-    func getString() -> String {
-        var c = count
-        var sb = ""
-        while c > 0 {
-            c -= 1
-            sb.append(chars[chars.index(chars.startIndex, offsetBy: c % 62)])
-            c /= 62
-        }
-        return String(sb.reversed())
-    }
-
-    func encode(_ longUrl: String) -> String {
-        let key = getString()
-        map[key] = longUrl
-        count += 1
-        return "http://tinyurl.com/\(key)"
-    }
-
-    func decode(_ shortUrl: String) -> String? {
-        let key = shortUrl.replacingOccurrences(of: "http://tinyurl.com/", with: "")
-        return map[key]
+        print(maxHeap.items)
     }
 }

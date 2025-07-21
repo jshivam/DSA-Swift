@@ -8,117 +8,101 @@
 
 import UIKit
 
-class Heap {
-    private var items = [Int]()
+class Heap<T: Comparable> {
+    enum HeapOrdering {
+        case min
+        case max
+    }
+    
+    let ordering: HeapOrdering
+    private(set) var items: [T]
 
-    func maxHeapify(_ index: Int) {
-        guard !items.isEmpty, index < items.count else { return }
-        let leftIndex = index * 2 + 1
-        let rightIndex = index * 2 + 2
-        var largestIndex = index
-
-        if leftIndex < items.count  && items[largestIndex] < items[leftIndex] {
-            largestIndex = leftIndex
+    init(ordering: HeapOrdering, items: [T] = []) {
+        self.ordering = ordering
+        self.items = items
+        buildHeap()
+    }
+    
+    func insert(_ element: T) {
+        if items.isEmpty {
+            items.append(element)
         }
-
-        if rightIndex < items.count && items[largestIndex] < items[rightIndex] {
-            largestIndex = rightIndex
-        }
-
-        if largestIndex != index {
-            items.swapAt(largestIndex, index)
-            maxHeapify(largestIndex)
+        else {
+            items.append(element)
+            shiftUp(size - 1)
         }
     }
-
-    func buildMaxHeap() {
-        items = [1, 2, 3, 4, 5]
-
-        for heapIndex in stride(from: items.count/2  - 1, through: 0, by: -1) {
-            maxHeapify(heapIndex)
+    
+    @discardableResult
+    func delete() -> T? {
+        if items.isEmpty {
+            return nil
         }
-        
-        print(items)
-    }
-}
-
-
-struct Heap_DS<Element: Comparable> {
-    private var elements: [Element] = []
-    
-    var isEmpty: Bool {
-        return elements.isEmpty
+        else if items.count == 1 {
+            return items.removeLast()
+        }
+        else {
+            items.swapAt(0, items.count - 1)
+            let item = items.removeLast()
+            heapify(0)
+            return item
+        }
     }
     
-    var count: Int {
-        return elements.count
+    func isEmpty() -> Bool {
+        return items.isEmpty
     }
     
-    mutating func insert(_ element: Element) {
-        elements.append(element)
-        siftUp(from: elements.count - 1)
+    var size: Int {
+        return items.count
     }
     
-    mutating func deleteMax() -> Element? {
-        guard !isEmpty else { return nil }
-        elements.swapAt(0, elements.count - 1)
-        let maxElement = elements.removeLast()
-        siftDown(from: 0)
-        return maxElement
-    }
-    
-    private mutating func siftUp(from index: Int) {
+    private func shiftUp(_ index: Int) {
         var childIndex = index
-        var parentIndex = parent(of: childIndex)
+        var parentIndex = self.parentIndex(childIndex)
         
-        while childIndex > 0 && elements[childIndex] > elements[parentIndex] {
-            elements.swapAt(childIndex, parentIndex)
+        while childIndex > 0 && items[childIndex] > items[parentIndex] {
+            items.swapAt(childIndex, parentIndex)
             childIndex = parentIndex
-            parentIndex = parent(of: childIndex)
+            parentIndex = self.parentIndex(childIndex)
         }
     }
     
-    private mutating func siftDown(from index: Int) {
-        var parentIndex = index
+    private func heapify(_ index: Int) {
+        let leftChildIndex = leftChildIndex(index)
+        let rightChildIndex = rightChildIndex(index)
         
-        while true {
-            let leftChildIndex = leftChild(of: parentIndex)
-            let rightChildIndex = rightChild(of: parentIndex)
-            var maxIndex = parentIndex
-            
-            if leftChildIndex < count && elements[leftChildIndex] > elements[maxIndex] {
-                maxIndex = leftChildIndex
-            }
-            if rightChildIndex < count && elements[rightChildIndex] > elements[maxIndex] {
-                maxIndex = rightChildIndex
-            }
-            if maxIndex == parentIndex {
-                return
-            }
-            elements.swapAt(parentIndex, maxIndex)
-            parentIndex = maxIndex
+        var largestIndex = index
+        
+        if leftChildIndex < size, items[leftChildIndex] > items[largestIndex] {
+            largestIndex = leftChildIndex
+        }
+        
+        if rightChildIndex < size, items[rightChildIndex] > items[largestIndex] {
+            largestIndex = rightChildIndex
+        }
+        
+        if largestIndex != index {
+            items.swapAt(index, largestIndex)
+            heapify(largestIndex)
+        }
+     }
+    
+    private func buildHeap() {
+        for i in stride(from: size / 2 - 1, through: 0, by: -1) {
+            heapify(i)
         }
     }
     
-    private func parent(of index: Int) -> Int {
+    private func parentIndex(_ index: Int) -> Int {
         return (index - 1) / 2
     }
     
-    private func leftChild(of index: Int) -> Int {
+    private func leftChildIndex(_ index: Int) -> Int {
         return 2 * index + 1
     }
     
-    private func rightChild(of index: Int) -> Int {
+    private func rightChildIndex(_ index: Int) -> Int {
         return 2 * index + 2
     }
 }
-
-// Example usage:
-//var maxHeap = Heap_DS<Int>()
-//maxHeap.insert(5)
-//maxHeap.insert(3)
-//maxHeap.insert(8)
-//maxHeap.insert(1)
-//
-//print(maxHeap.deleteMax()!) // Output: 8
-//print(maxHeap.deleteMax()!) // Output: 5
