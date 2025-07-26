@@ -117,6 +117,7 @@ Note: Most of problems have been picked from leetcode.
 
 ## Heap
 1. [Heap](DSA-Swift/SocurceCode/Heap/Heap.swift)
+2. [Heap](DSA-Swift/SocurceCode/Heap/MedianFinder.swift)
 
 ## Tri
 1. [Tri](DSA-Swift/SocurceCode/Tri/Tri.swift)
