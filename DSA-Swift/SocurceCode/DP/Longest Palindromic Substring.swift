@@ -83,7 +83,7 @@ class Longest_Palindromic_Substring: Executable {
     }
 }
 
-extension ClosedRange: Comparable where Bound == Int {
+extension ClosedRange: @retroactive Comparable where Bound == Int {
     public static func < (lhs: ClosedRange<Bound>, rhs: ClosedRange<Bound>) -> Bool {
         return lhs.count < rhs.count
     }

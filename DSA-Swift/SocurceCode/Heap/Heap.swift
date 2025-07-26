@@ -8,6 +8,7 @@
 
 import Foundation
 
+final
 class Heap<T: Comparable> {
     enum HeapOrdering {
         case min
@@ -51,7 +52,7 @@ class Heap<T: Comparable> {
         
         var sortedArray: [T] = []
         
-        while !isEmpty() {
+        while !isEmpty {
             if let element = delete() {
                 sortedArray.append(element)
             }
@@ -60,12 +61,16 @@ class Heap<T: Comparable> {
         return sortedArray
     }
     
-    func isEmpty() -> Bool {
+    var isEmpty: Bool {
         return items.isEmpty
     }
     
     var size: Int {
         return items.count
+    }
+    
+    var peek: T? {
+        return items.first
     }
     
     private func shiftUp(_ index: Int) {
