@@ -13,9 +13,15 @@ class Sorter<Item: Comparable> {
         switch sort {
         case .mergeSort:
             return mergeSort(items)
+            
         case .quickSort:
             var items = items
             quickSort(&items, left: 0, right: items.count - 1)
+            return items
+        
+        case .heapSort:
+            var items = items
+            heapSort(&items)
             return items
         }
     }
@@ -25,5 +31,6 @@ extension Sorter {
     enum Sort {
         case mergeSort
         case quickSort
+        case heapSort
     }
 }

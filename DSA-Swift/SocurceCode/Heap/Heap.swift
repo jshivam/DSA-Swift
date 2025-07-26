@@ -6,7 +6,7 @@
 //  Copyright © 2020 Shivam Jaiswal. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Heap<T: Comparable> {
     enum HeapOrdering {
@@ -26,8 +26,7 @@ class Heap<T: Comparable> {
     func insert(_ element: T) {
         if items.isEmpty {
             items.append(element)
-        }
-        else {
+        } else {
             items.append(element)
             shiftUp(size - 1)
         }
@@ -37,16 +36,28 @@ class Heap<T: Comparable> {
     func delete() -> T? {
         if items.isEmpty {
             return nil
-        }
-        else if items.count == 1 {
+        } else if items.count == 1 {
             return items.removeLast()
-        }
-        else {
+        } else {
             items.swapAt(0, items.count - 1)
             let item = items.removeLast()
             heapify(0)
             return item
         }
+    }
+        
+    func sort() -> [T] {
+        guard items.count > 1 else { return items }
+        
+        var sortedArray: [T] = []
+        
+        while !isEmpty() {
+            if let element = delete() {
+                sortedArray.append(element)
+            }
+        }
+        
+        return sortedArray
     }
     
     func isEmpty() -> Bool {
@@ -61,7 +72,7 @@ class Heap<T: Comparable> {
         var childIndex = index
         var parentIndex = self.parentIndex(childIndex)
         
-        while childIndex > 0 && items[childIndex] > items[parentIndex] {
+        while childIndex > 0 && shouldSwap(childIndex: childIndex, parentIndex: parentIndex) {
             items.swapAt(childIndex, parentIndex)
             childIndex = parentIndex
             parentIndex = self.parentIndex(childIndex)
@@ -72,21 +83,30 @@ class Heap<T: Comparable> {
         let leftChildIndex = leftChildIndex(index)
         let rightChildIndex = rightChildIndex(index)
         
-        var largestIndex = index
+        var targetIndex = index
         
-        if leftChildIndex < size, items[leftChildIndex] > items[largestIndex] {
-            largestIndex = leftChildIndex
+        if leftChildIndex < size && shouldSwap(childIndex: leftChildIndex, parentIndex: targetIndex) {
+            targetIndex = leftChildIndex
         }
         
-        if rightChildIndex < size, items[rightChildIndex] > items[largestIndex] {
-            largestIndex = rightChildIndex
+        if rightChildIndex < size && shouldSwap(childIndex: rightChildIndex, parentIndex: targetIndex) {
+            targetIndex = rightChildIndex
         }
         
-        if largestIndex != index {
-            items.swapAt(index, largestIndex)
-            heapify(largestIndex)
+        if targetIndex != index {
+            items.swapAt(index, targetIndex)
+            heapify(targetIndex)
         }
-     }
+    }
+    
+    private func shouldSwap(childIndex: Int, parentIndex: Int) -> Bool {
+        switch ordering {
+        case .max:
+            return items[childIndex] > items[parentIndex]
+        case .min:
+            return items[childIndex] < items[parentIndex]
+        }
+    }
     
     private func buildHeap() {
         for i in stride(from: size / 2 - 1, through: 0, by: -1) {
