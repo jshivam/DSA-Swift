@@ -26,6 +26,7 @@
 		A00B7A7E2435CC7100E8D351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00B7A7C2435CC7100E8D351 /* LaunchScreen.storyboard */; };
 		A023824A244858970085B4A2 /* K-diff Pairs in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */; };
 		A0315A1D247F7C53003336D5 /* Palindrome Partitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0315A1C247F7C53003336D5 /* Palindrome Partitioning.swift */; };
+		A031CC7C2E35E58B00943232 /* IPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031CC7B2E35E58B00943232 /* IPO.swift */; };
 		A03C44382483A6C200815E11 /* Longest Common Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C44372483A6C200815E11 /* Longest Common Subsequence.swift */; };
 		A041D196244733020063BB30 /* Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041D195244733020063BB30 /* Edit Distance.swift */; };
 		A04650C72440CBBC00E954C5 /* Minimum Window Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */; };
@@ -139,6 +140,7 @@
 		A00B7A7F2435CC7100E8D351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0238249244858970085B4A2 /* K-diff Pairs in an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K-diff Pairs in an Array.swift"; sourceTree = "<group>"; };
 		A0315A1C247F7C53003336D5 /* Palindrome Partitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Partitioning.swift"; sourceTree = "<group>"; };
+		A031CC7B2E35E58B00943232 /* IPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPO.swift; sourceTree = "<group>"; };
 		A03C44372483A6C200815E11 /* Longest Common Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Common Subsequence.swift"; sourceTree = "<group>"; };
 		A041D195244733020063BB30 /* Edit Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit Distance.swift"; sourceTree = "<group>"; };
 		A04650C62440CBBC00E954C5 /* Minimum Window Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Window Substring.swift"; sourceTree = "<group>"; };
@@ -305,6 +307,7 @@
 				A06B262D243F829B008BAAF6 /* Heap.swift */,
 				A04895332E35326600A6EDE6 /* MedianFinder.swift */,
 				A04895352E355D7000A6EDE6 /* FindKPairswithSmallestSums.swift */,
+				A031CC7B2E35E58B00943232 /* IPO.swift */,
 			);
 			path = Heap;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 				A07E15F92435CCB000CC8702 /* MaximumPathSum.swift in Sources */,
 				A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */,
 				A07E160E2435CFB800CC8702 /* Maximum Sum Subsequence Non-Adjacent.swift in Sources */,
+				A031CC7C2E35E58B00943232 /* IPO.swift in Sources */,
 				A06B2627243E08DB008BAAF6 /* Binary Tree Paths.swift in Sources */,
 				A07E16042435CCB000CC8702 /* Count Primes.swift in Sources */,
 				A07E16002435CCB000CC8702 /* Subarray Sum Equals K.swift in Sources */,
