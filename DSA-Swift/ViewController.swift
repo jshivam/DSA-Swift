@@ -11,6 +11,16 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        IPO().excecute()
+        
+        let ll = LinkList<Int>()
+        ll.append(4)
+        ll.append(2)
+        ll.append(1)
+        ll.append(3)
+        ll.append(0)
+        
+        ll.sort()
+        
+        print(ll.description)
     }
 }

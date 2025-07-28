@@ -193,3 +193,72 @@ extension LinkList
         return current
     }
 }
+
+extension LinkList where T: Comparable {
+    func sort() {
+        head = sortList(head)
+    }
+    
+    private func sortList(_ head: Node?) -> Node? {
+        guard let head = head, head.next != nil else {
+            return head
+        }
+        
+        let (left, right) = splitList(head)
+        
+        return mergeLists(sortList(left), sortList(right))
+    }
+    
+    private func splitList(_ head: Node) -> (Node, Node?) {
+        var slow = head
+        var fast = head
+        
+        // Find middle using two pointers
+        while fast.next != nil && fast.next?.next != nil {
+            slow = slow.next!
+            fast = fast.next!.next!
+        }
+        
+        // Split the list
+        let rightHalf = slow.next
+        slow.next = nil
+        
+        return (head, rightHalf)
+    }
+    
+    private func mergeLists(_ list1: Node?, _ list2: Node?) -> Node? {
+        var dummy: Node?
+        var current = dummy
+        var l1 = list1
+        var l2 = list2
+        
+        // Merge while both lists have nodes
+        while let node1 = l1, let node2 = l2 {
+            if dummy == nil {
+                if node1.value <= node2.value {
+                    dummy = node1
+                    l1 = node1.next
+                }
+                else {
+                    dummy = node2
+                    l2 = node2.next
+                }
+                current = dummy
+                continue
+            }
+            else if node1.value <= node2.value{
+                current!.next = node1
+                l1 = node1.next
+            } else {
+                current!.next = node2
+                l2 = node2.next
+            }
+            current = current?.next!
+        }
+        
+        // Attach remaining nodes
+        current!.next = l1 ?? l2
+        
+        return dummy!
+    }
+}
