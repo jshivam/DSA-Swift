@@ -12,15 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ll = LinkList<Int>()
-        ll.append(4)
-        ll.append(2)
-        ll.append(1)
-        ll.append(3)
-        ll.append(0)
-        
-        ll.sort()
-        
-        print(ll.description)
+        let tree = QuadTree().construct(
+            [[1,1],[1,1]]
+        )
+        print (tree)
     }
 }
