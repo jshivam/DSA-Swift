@@ -31,7 +31,7 @@ import UIKit
 
 class Minimum_Subarray_With_Required_Sum: Executable {
     
-    func excecute() {
+    func execute() {
         print(minSubArrayLen(7, [7,1]))
     }
     

@@ -9,7 +9,7 @@
 import UIKit
 
 class Climbing_Stairs: Executable {
-    func excecute() {
+    func execute() {
         print(climbStairs(4))
     }
 

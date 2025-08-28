@@ -38,7 +38,7 @@ import UIKit
  It's guaranteed that the answer will be less than or equal to 2 * 10 ^ 9.
 */
 class Unique_Paths: Executable {
-    func excecute() {
+    func execute() {
         print(uniquePaths(7, 3))
     }
 

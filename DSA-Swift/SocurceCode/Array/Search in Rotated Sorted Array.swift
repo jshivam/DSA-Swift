@@ -9,7 +9,7 @@
 import UIKit
 
 class Search_in_Rotated_Sorted_Array: Executable {
-    func excecute() {
+    func execute() {
         print(search([], 3))
     }
     

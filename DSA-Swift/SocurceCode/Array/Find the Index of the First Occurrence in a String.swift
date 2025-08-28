@@ -8,7 +8,7 @@
 
 
 class Find_the_Index_of_the_First_Occurrence_in_a_String: Executable {
-    func excecute() {
+    func execute() {
 //        print(strStr("mississippi", "issip"))
 //        print(isPalindrome("race a car"))
 //        print(wordPattern("abba", "dog cat cat fish"))

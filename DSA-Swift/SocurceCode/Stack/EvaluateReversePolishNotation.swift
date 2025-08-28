@@ -9,7 +9,7 @@
 import Foundation
 
 class EvaluateReversePolishNotation: Executable {
-    func excecute() {
+    func execute() {
         print(evalRPN(["10","6","9","3","+","-11","*","/","*","17","+","5","+"]))
     }
     

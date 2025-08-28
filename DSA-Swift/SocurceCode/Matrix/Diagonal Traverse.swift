@@ -10,7 +10,7 @@ import UIKit
 
 class DiagonalTraverse: Executable {
 
-    func excecute() {
+    func execute() {
         let matrix: [[Int]] = [
          [ 1, 2 ],
          [ 4, 5 ],

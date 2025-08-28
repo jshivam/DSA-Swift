@@ -25,7 +25,7 @@ import UIKit
  The order of your output does not matter.
 */
 class Group_Anagrams: Executable {
-    func excecute() {
+    func execute() {
         print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
     }
 

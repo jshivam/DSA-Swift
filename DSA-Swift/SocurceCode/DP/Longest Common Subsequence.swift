@@ -9,7 +9,7 @@
 import UIKit
 
 class Longest_Common_Subsequence: Executable {
-    func excecute() {
+    func execute() {
         print(longestCommonSubsequence("AGGTAB", "GXTXAYB"))
     }
 

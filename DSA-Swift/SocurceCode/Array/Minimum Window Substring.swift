@@ -22,7 +22,7 @@ import UIKit
 */
 
 class Minimum_Window_Substring: Executable {
-    func excecute() {
+    func execute() {
         print(minWindow("ADOBECODEBANC", "ABC"))
     }
 

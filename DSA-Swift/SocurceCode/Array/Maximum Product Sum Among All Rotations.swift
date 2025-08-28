@@ -30,7 +30,7 @@ import UIKit
 */
 
 class Maximum_Product_Sum_Among_All_Rotations: Executable {
-    func excecute() {
+    func execute() {
         print(maxSum([3, 2, 1]))
     }
 

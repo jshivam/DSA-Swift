@@ -19,7 +19,7 @@ import UIKit
         "()()()"
 */
 class Generate_Parentheses: Executable {
-    func excecute() {
+    func execute() {
         print(generateParenthesis(3))
     }
 

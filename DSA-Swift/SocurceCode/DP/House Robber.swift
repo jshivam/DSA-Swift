@@ -9,7 +9,7 @@
 import UIKit
 
 class House_Robber: Executable {
-    func excecute() {
+    func execute() {
         print(rob([1,2,3,1]))
     }
 

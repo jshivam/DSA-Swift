@@ -10,7 +10,7 @@ import UIKit
 
 class Subsets: Executable {
 
-    func excecute() {
+    func execute() {
         let nums = [1,2,3]
         print(subsets(nums))
     }

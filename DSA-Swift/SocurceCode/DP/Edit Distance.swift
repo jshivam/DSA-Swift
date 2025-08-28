@@ -9,7 +9,7 @@
 import UIKit
 
 class Edit_Distance: Executable {
-    func excecute() {
+    func execute() {
         print(minDistance("", ""))
     }
 

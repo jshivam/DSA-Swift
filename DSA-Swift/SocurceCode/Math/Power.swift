@@ -9,7 +9,7 @@
 import Foundation
 
 class Pwoer: Executable {
-    func excecute() {
+    func execute() {
         print(myPow(0.00001, 2147483647))
     }
     

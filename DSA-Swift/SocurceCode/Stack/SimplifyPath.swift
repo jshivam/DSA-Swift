@@ -9,7 +9,7 @@
 import Foundation
 
 class SimplifyPath: Executable {
-    func excecute() {
+    func execute() {
         print(simplifyPath("/home/user/Documents/../Pictures"))
         print(simplifyPath("/home/"))
         print(simplifyPath("/.../a/../b/c/../d/./"))

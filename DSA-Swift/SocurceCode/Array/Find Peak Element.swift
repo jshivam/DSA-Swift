@@ -33,7 +33,7 @@ import UIKit
 */
 class Find_Peak_Element: Executable {
 
-    func excecute() {
+    func execute() {
         print(findPeakElement([1,2,3,1]))
     }
 

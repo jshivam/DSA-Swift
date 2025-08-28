@@ -10,7 +10,7 @@ import UIKit
 
 class Longest_Increasing_Subsequence: Executable {
 
-    func excecute() {
+    func execute() {
         print(lengthOfLIS([10,9,2,5,3,7,101,18]))
     }
 

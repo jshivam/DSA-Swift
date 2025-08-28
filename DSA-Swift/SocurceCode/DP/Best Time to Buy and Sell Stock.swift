@@ -9,7 +9,7 @@
 import UIKit
 
 class Best_Time_to_Buy_and_Sell_Stock: Executable {
-    func excecute() {
+    func execute() {
         print(maxProfit([7,1,5,3,6,4]))
     }
 

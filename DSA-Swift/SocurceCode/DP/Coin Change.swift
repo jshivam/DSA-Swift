@@ -26,7 +26,7 @@ import UIKit
  You may assume that you have an infinite number of each kind of coin.
 */
 class Coin_Change: Executable {
-    func excecute() {
+    func execute() {
         print(coinChange([1, 2, 5], 11))
     }
 

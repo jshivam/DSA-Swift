@@ -23,7 +23,7 @@ import UIKit
 */
 
 class Contiguous_Array: Executable {
-    func excecute() {
+    func execute() {
 //        print(shortestSubarray([1, 2], 2))
     }
 

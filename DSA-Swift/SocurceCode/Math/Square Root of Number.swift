@@ -9,7 +9,7 @@
 import Foundation
 
 class SquareRootofNumber: Executable {
-    func excecute() {
+    func execute() {
         print(mySqrt(8))
     }
     

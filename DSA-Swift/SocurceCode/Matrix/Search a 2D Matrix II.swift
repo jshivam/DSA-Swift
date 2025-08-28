@@ -32,7 +32,7 @@ import UIKit
 
 class Search_a_2D_Matrix_II: Executable {
 
-    func excecute() {
+    func execute() {
         let matrix = [
           [1,   4,  7, 11, 15],
           [2,   5,  8, 12, 19],

@@ -9,7 +9,7 @@
 import UIKit
 
 class Permutations: Executable {
-    func excecute() {
+    func execute() {
         permute2([1, 2, 3, 4]).forEach({ print($0) })
     }
 

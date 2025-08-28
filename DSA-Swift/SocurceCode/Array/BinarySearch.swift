@@ -10,7 +10,7 @@ import Foundation
 
 class BinarySearch: Executable
 {
-    func excecute() {
+    func execute() {
         let array = [1, 2, 4, 5, 9]
         let result = search(target: 15, on: array, start: 0, last: array.count - 1)
         print(result ?? -1)

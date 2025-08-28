@@ -9,7 +9,7 @@
 import UIKit
 
 class PalindromeNumber: Executable {
-    func excecute() {
+    func execute() {
         print(isPalindrome(122211))
     }
 

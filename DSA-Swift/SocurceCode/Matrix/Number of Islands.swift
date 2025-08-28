@@ -31,7 +31,7 @@ import UIKit
 */
 class Number_of_Islands: Executable {
 
-    func excecute() {
+    func execute() {
         let matrix = [[1, 1, 1, 1, 0],
                       [1, 1, 0, 1, 0],
                       [1, 1, 0, 0, 0],

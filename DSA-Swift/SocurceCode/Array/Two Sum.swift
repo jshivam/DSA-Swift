@@ -23,7 +23,7 @@ import UIKit
 */
 
 class Two_Sum: Executable {
-    func excecute() {
+    func execute() {
         print(twoSum([2, 7, 11, 15], 9))
     }
 

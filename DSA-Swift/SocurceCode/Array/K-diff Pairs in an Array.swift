@@ -35,7 +35,7 @@ All the integers in the given input belong to the range: [-1e7, 1e7].
 
 class K_diff_Pairs_in_an_Array: Executable {
 
-    func excecute() {
+    func execute() {
         print(findPairs([1,3,1,5,4], 0))
     }
 

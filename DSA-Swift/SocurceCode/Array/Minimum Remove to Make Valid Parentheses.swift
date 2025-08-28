@@ -47,7 +47,7 @@ import UIKit
      s[i] is one of  '(' , ')' and lowercase English letters.
 */
 class Minimum_Remove_to_Make_Valid_Parentheses: Executable {
-    func excecute() {
+    func execute() {
         print(minRemoveToMakeValid("lee(t(c)o)de)(a"))
     }
 

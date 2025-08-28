@@ -38,7 +38,7 @@ import Foundation
 
 class SurroundedRegions: Executable {
  
-    func excecute() {
+    func execute() {
         var board: [[Character]] = [["O","X","O","O","O","X"],
                                     ["O","O","X","X","X","O"],
                                     ["X","X","X","X","X","O"],

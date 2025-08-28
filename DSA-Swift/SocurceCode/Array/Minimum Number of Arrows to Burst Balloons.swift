@@ -7,7 +7,7 @@
 //
 
 class MinimumNumberofArrowstoBurstBalloons: Executable {
-    func excecute() {
+    func execute() {
         print(findMinArrowShots([[10,16],[2,8],[1,6],[7,12]]))
         print(findMinArrowShots([[1,2],[3,4],[5,6],[7,8]]))
     }

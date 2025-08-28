@@ -31,7 +31,7 @@ import UIKit
      Output: 22
 */
 class SmallestPositiveInteger: Executable {
-    func excecute() {
+    func execute() {
         print(findSmallest([1, 2, 5, 10, 20, 40]))
     }
 

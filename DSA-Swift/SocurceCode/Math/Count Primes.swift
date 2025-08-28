@@ -10,7 +10,7 @@ import UIKit
 
 class CountPrimes: Executable {
 
-    func excecute() {
+    func execute() {
         print(countPrimes(10))
     }
     

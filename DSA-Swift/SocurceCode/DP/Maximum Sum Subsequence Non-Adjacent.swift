@@ -9,7 +9,7 @@
 import UIKit
 
 class MaximumSumSubsequenceNonAdjacent: Executable {
-    func excecute() {
+    func execute() {
         print(maximumSumSubsequenceNonAdjacent([5, 5, 10, -100, 10, 5]))
     }
 

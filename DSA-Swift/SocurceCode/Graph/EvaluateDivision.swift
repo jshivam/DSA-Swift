@@ -10,7 +10,7 @@ import Foundation
 
 class EvaluateDivision: Executable {
     
-    func excecute() {
+    func execute() {
         print(
             calcEquation(
                 [["a","b"],["b","c"]],

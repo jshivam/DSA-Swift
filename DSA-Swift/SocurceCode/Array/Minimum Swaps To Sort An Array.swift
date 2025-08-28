@@ -29,7 +29,7 @@ import UIKit
 */
 
 class Minimum_Swaps_To_Sort_An_Array: Executable {
-    func excecute() {
+    func execute() {
         print(minimumSwaps(arr: [4 ,3 ,1 ,2]))
     }
 

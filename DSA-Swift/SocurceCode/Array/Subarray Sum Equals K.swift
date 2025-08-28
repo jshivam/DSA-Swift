@@ -17,7 +17,7 @@ import UIKit
      Output: 2
 */
 class SubarraySumEqualsK: Executable {
-    func excecute() {
+    func execute() {
         print(subarraySum([10, 2, -2, -20, 10],  -10))
     }
 

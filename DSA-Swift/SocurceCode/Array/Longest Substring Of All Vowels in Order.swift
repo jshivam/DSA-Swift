@@ -9,7 +9,7 @@
 import UIKit
 
 class Longest_Substring_Of_All_Vowels_in_Order: Executable {
-    func excecute() {
+    func execute() {
         print(longestBeautifulSubstring("a"))
     }
     

@@ -10,7 +10,7 @@ import UIKit
 
 class Spiral_Matrix: Executable {
 
-    func excecute() {
+    func execute() {
         print(spiralOrder([
          [ 1, 2, 3 ],
          [ 4, 5, 6 ],

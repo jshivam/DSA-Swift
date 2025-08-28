@@ -50,7 +50,7 @@ import UIKit
 
 class Set_Matrix_Zeroes: Executable {
 
-    func excecute() {
+    func execute() {
         var mat = [
           [1,1,1],
           [1,0,1],

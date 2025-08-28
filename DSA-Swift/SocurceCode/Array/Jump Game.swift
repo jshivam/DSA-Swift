@@ -19,7 +19,7 @@ import UIKit
 */
 class Jump_Game: Executable {
 
-    func excecute() {
+    func execute() {
         print(jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]))
     }
 

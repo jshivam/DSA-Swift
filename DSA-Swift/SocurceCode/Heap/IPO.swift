@@ -48,7 +48,7 @@ import Foundation
 
 
 class IPO: Executable {
-    func excecute() {
+    func execute() {
         print(findMaximizedCapital(3, 0, [1,2,3], [0,1,2]))
     }
     

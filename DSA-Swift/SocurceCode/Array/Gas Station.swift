@@ -55,7 +55,7 @@ import UIKit
 
 */
 class Gas_Station: Executable {
-    func excecute() {
+    func execute() {
         print(canCompleteCircuit([5,1,2,3,4], [4,4,1,5,1]))
     }
     func canCompleteCircuit(_ gases: [Int], _ costs: [Int]) -> Int {

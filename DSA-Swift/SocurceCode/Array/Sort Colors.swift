@@ -27,7 +27,7 @@ import UIKit
 */
 
 class Sort_Colors: Executable {
-    func excecute() {
+    func execute() {
         var arr = [2,0,2,1,1,0]
         sortColors(&arr)
         print(arr)

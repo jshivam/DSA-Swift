@@ -23,7 +23,7 @@ import UIKit
 */
 class Maximum_Subarray: Executable {
 
-    func excecute() {
+    func execute() {
         print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
     }
 

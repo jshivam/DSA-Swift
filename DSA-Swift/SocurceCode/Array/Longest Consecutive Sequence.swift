@@ -9,7 +9,7 @@
 import UIKit
 
 class Longest_Consecutive_Sequence: Executable {
-    func excecute() {
+    func execute() {
         print(longestConsecutive([100, 4, 200, 1, 3, 2]))
     }
 

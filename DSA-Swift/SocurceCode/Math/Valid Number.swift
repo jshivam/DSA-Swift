@@ -28,7 +28,7 @@ import Foundation
 
 class ValidNumber: Executable {
 
-    func excecute() {
+    func execute() {
         let result = isNumber(".e1")
         print(result)
     }

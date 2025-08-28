@@ -28,7 +28,7 @@ import UIKit
 
 class Longest_Common_Prefix: Executable {
 
-    func excecute() {
+    func execute() {
         print(longestCommonPrefix(["flower","flow","flight"]))
     }
 

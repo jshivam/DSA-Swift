@@ -9,7 +9,7 @@
 import UIKit
 
 class WordLadder: Executable {
-    func excecute() {
+    func execute() {
         let beginWord = "hit"
         let endWord = "cog"
         let wordList = ["hot","dot","dog","lot","log","cog"]

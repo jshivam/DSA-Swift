@@ -24,7 +24,7 @@ import Foundation
 */
 
 class Palindrome_Partitioning: Executable {
-    func excecute() {
+    func execute() {
         print(partition("aab"))
     }
 

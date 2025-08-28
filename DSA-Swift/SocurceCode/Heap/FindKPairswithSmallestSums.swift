@@ -9,7 +9,7 @@
 import Foundation
 
 class FindKPairswithSmallestSums: Executable {
-    func excecute() {
+    func execute() {
         print(kSmallestPairs(
             [1,7,11],
                                              

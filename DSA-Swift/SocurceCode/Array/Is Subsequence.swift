@@ -27,7 +27,7 @@ import UIKit
 */
 
 class Is_Subsequence: Executable {
-    func excecute() {
+    func execute() {
         print(isSubsequence("axc", "ahbgdc"))
     }
     

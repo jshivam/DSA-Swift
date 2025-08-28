@@ -49,7 +49,7 @@ import Foundation
 
 class SnakesandLadders: Executable {
     
-    func excecute() {
+    func execute() {
         print(snakesAndLadders(
             [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
         ))

@@ -10,7 +10,7 @@ import UIKit
 
 class Frequencies_of_array_elements_in_range_1_to_n: Executable {
 
-    func excecute() {
+    func execute() {
         print(frequencies([4, 4, 4, 4]))
     }
 

@@ -43,7 +43,7 @@ import UIKit
 */
 
 class Valid_Parentheses: Executable {
-    func excecute() {
+    func execute() {
         print(isValid("()"))
     }
 

@@ -25,7 +25,7 @@ import UIKit
                     (1, 4, 5)
 */
 class Three_Sum_Smaller: Executable {
-    func excecute() {
+    func execute() {
         print(threeSum([5, 1, 3, 4, 7], sum: 12))
     }
 

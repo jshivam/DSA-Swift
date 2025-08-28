@@ -27,7 +27,7 @@ import UIKit
 */
 
 class Delete_Products: Executable {
-    func excecute() {
+    func execute() {
         print(deleteProducts(ids: [2, 4, 1, 5, 3, 5, 1, 3], m: 2))
     }
 
