@@ -108,6 +108,7 @@
 		A0C830A82438A3DB001E0D35 /* SmallestPositiveInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C830A72438A3DB001E0D35 /* SmallestPositiveInteger.swift */; };
 		A0D09E182E0960B400C79DBF /* SurroundedRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D09E172E0960B400C79DBF /* SurroundedRegions.swift */; };
 		A0DD8C332E1FF285001DB949 /* SnakesandLadders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DD8C322E1FF285001DB949 /* SnakesandLadders.swift */; };
+		A0E4BD772E6078C8004FEEE3 /* EvaluateDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4BD762E6078C8004FEEE3 /* EvaluateDivision.swift */; };
 		A0EAC889243626F900FDBF18 /* Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC888243626F900FDBF18 /* Coin Change.swift */; };
 		A0EAC88B24363A5500FDBF18 /* Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */; };
 		A0EDFAD52441E27B00244B2D /* Insert Delete GetRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */; };
@@ -223,6 +224,7 @@
 		A0C830A72438A3DB001E0D35 /* SmallestPositiveInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestPositiveInteger.swift; sourceTree = "<group>"; };
 		A0D09E172E0960B400C79DBF /* SurroundedRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurroundedRegions.swift; sourceTree = "<group>"; };
 		A0DD8C322E1FF285001DB949 /* SnakesandLadders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesandLadders.swift; sourceTree = "<group>"; };
+		A0E4BD762E6078C8004FEEE3 /* EvaluateDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateDivision.swift; sourceTree = "<group>"; };
 		A0EAC888243626F900FDBF18 /* Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coin Change.swift"; sourceTree = "<group>"; };
 		A0EAC88A24363A5500FDBF18 /* Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Climbing Stairs.swift"; sourceTree = "<group>"; };
 		A0EDFAD42441E27B00244B2D /* Insert Delete GetRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insert Delete GetRandom.swift"; sourceTree = "<group>"; };
@@ -417,6 +419,7 @@
 			children = (
 				A07E15DD2435CCB000CC8702 /* WordLadder.swift */,
 				A0DD8C322E1FF285001DB949 /* SnakesandLadders.swift */,
+				A0E4BD762E6078C8004FEEE3 /* EvaluateDivision.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				A07E15FE2435CCB000CC8702 /* Jump Game.swift in Sources */,
 				A0BD64412443604000C7A613 /* Delete Products.swift in Sources */,
 				A070C35F2445D9120057E550 /* Sorter.swift in Sources */,
+				A0E4BD772E6078C8004FEEE3 /* EvaluateDivision.swift in Sources */,
 				A00B7A762435CC6E00E8D351 /* ViewController.swift in Sources */,
 				A05F44E2247590E000975D3A /* Boundary Traversal Of Binary Tree .swift in Sources */,
 				A0F5ECC3245084DE0010EA05 /* Two Sum.swift in Sources */,
